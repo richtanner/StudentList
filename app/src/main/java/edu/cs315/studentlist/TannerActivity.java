@@ -24,7 +24,8 @@ public class TannerActivity extends AppCompatActivity {
             "CSS",
             "PHP",
             "JavaScript (some)",
-            "ActionScript"
+            "ActionScript",
+            "BASIC (4evr ago)"
     };
 
     @Override
