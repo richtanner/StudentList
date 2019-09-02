@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     ListView simpleList;
 
+    // here is some comments
+
     // Array of strings...
     String peopleList[] = {
             "Zack Albrecht",
