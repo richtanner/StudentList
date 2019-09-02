@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // Array of strings...
     String peopleList[] = {
-            "Zack Albrecht",
+            "Zach Albrecht",
             "Paula Berggren",
             "JC Campbell",
             "Yodeli Castillo",
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Lamont",
             "Kyle Lemons",
             "Wade Linder",
-            "Josh Marsden",
+            "John Marsden",
             "Felix Angelo Mbikogbia",
             "Mitchell Melrose",
             "Jade Rupley",
