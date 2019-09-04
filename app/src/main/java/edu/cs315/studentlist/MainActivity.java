@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // Array of strings...
     String peopleList[] = {
-            "Zack Albrecht",
+            "Zach Albrecht",
             "Paula Berggren",
             "JC Campbell",
             "Yodeli Castillo",
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Kyle Lemons",
             "Wade Linder",
             "Josh Marsden",
-            "Felix Angelo Mbikogbia",
+            "Felix Mbikogbia",
             "Mitchell Melrose",
             "Jade Rupley",
             "JD Schwiethale",
@@ -79,5 +79,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
         }
+        if (personSelected == "Felix Mbikogbia") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, FelixActivity.class);
+            context.startActivity(intent);
+        }
+
     }
 }
