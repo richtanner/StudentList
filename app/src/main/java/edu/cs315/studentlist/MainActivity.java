@@ -46,8 +46,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);      setContentView(R.layout.activity_main);
-        simpleList = (ListView)findViewById(R.id.simpleListView);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        simpleList = (ListView) findViewById(R.id.simpleListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
         simpleList.setOnItemClickListener(this);  // set THIS class as the listener
@@ -80,6 +81,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, TannerActivity.class);
+            context.startActivity(intent);
+        } else if (personSelected == "Will Gibbs") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, GibbsActivity.class);
             context.startActivity(intent);
         }
     }
