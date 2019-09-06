@@ -62,6 +62,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
+            case 7:
+                Toast.makeText(this, personSelected + " did nothing wrong.", Toast.LENGTH_LONG).show();
+                break;
             case 20:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
