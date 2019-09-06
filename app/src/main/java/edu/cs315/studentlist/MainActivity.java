@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Josh Marsden",
             "Felix Angelo Mbikogbia",
             "Mitchell Melrose",
-            //Jade is 17th on the list
+            //Jade is 17th on this list
             "Jade Rupley",
             "JD Schwiethale",
             "Anand Shah",
