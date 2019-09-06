@@ -3,4 +3,7 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="title_kersker_detail">JFK are my initials</string>
+    <string name="jfk_name">Joshua Kersker</string>
+    <string name="jfk_title">Ministry Major CS/IT Minor</string>
 </resources>
