@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GibbsActivity"></activity>
+        <activity android:name=".GibbsActivity"
+            android:label="@string/title_gibbs_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/GibbsCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
