@@ -24,4 +24,8 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="CastilloCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/listYC</item>
+    </style>
+
 </resources>

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".CastilloActivity"
+            android:label="Yodeli Castillo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/CastilloCustomTheme">
+        </activity>
+        <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -18,16 +24,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".TannerActivity"
-            android:theme="@style/TannerCustomTheme"
             android:label="@string/title_tanner_detail"
-            android:parentActivityName=".MainActivity">
-
-        <meta-data
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TannerCustomTheme">
+            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
