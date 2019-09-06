@@ -73,10 +73,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected == "Kyle Lemons") {
+        if (personSelected == "Rich Tanner") {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, TannerActivity.class);
+            context.startActivity(intent);
+        }
+
+        if (personSelected == "Kyle Lemons") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, KyleActivity.class);
             context.startActivity(intent);
         }
     }

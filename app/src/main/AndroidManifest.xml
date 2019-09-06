@@ -12,7 +12,9 @@
         <activity android:name=".KyleActivity"></activity>
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/SplashTheme">
+            android:label="Kyle Lemons"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/KyleCustomTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -6,5 +6,6 @@
 
 
     <string name="my_name">Kyle Lemons</string>
-    <String name="title_kyle">Just some plebeian</String>
+    <string name="title_kyle">Just some plebeian</string>
+    <string name="todo">TODO</string>
 </resources>
