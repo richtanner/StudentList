@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
+    <string name="title_Jerry_detail">Jerry The Sleeper</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="sxg_name">Sihong Guo</string>
