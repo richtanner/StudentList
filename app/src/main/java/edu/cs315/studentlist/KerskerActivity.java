@@ -22,7 +22,7 @@ public class KerskerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kersker);
 
-        kerskerFacts = (ListView)findViewById(R.id.language_list);
+        kerskerFacts = (ListView)findViewById(R.id.kersker_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, factsArray);
         kerskerFacts.setAdapter(arrayAdapter);
     }
