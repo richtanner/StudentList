@@ -40,13 +40,13 @@
     </style>
 
 
-  
+
     <style name="KerskerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/orangeIsh</item>
         <item name="colorPrimaryDark">@color/darkOrangeIsh</item>
         <item name="colorAccent">@color/deepRed</item>
     </style>
-  
+
     <style name="AlbrechtCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/zca_light</item>
@@ -68,7 +68,14 @@
         <item name="colorPrimaryDark">@color/forestGreen</item>
         <item name="colorAccent">@color/lime</item>
     </style>
-  
+
+    <style name="JMMCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/jmmOrange</item>
+        <item name="colorPrimaryDark">@color/jmmOrangeDark</item>
+        <item name="colorAccent">@color/jmmBlack</item>
+        <item name="android:textColor">@color/jmmOrangeDark</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

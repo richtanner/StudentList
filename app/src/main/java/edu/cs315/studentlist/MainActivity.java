@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "John Marsden",
             "Felix Mbikogbia",
             "Mitchell Melrose",
-            //Jade is 17th on this list
             "Jade Rupley",
             "JD Schwiethale",
             "Anand Shah",
@@ -70,8 +69,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
+            case 0:
+                // by specific index
+                Toast.makeText(this, personSelected + " wrote some mediocre code!!", Toast.LENGTH_LONG).show();
+                break;
             case 10:
                 Toast.makeText(this,personSelected + " A.K.A. JFK", Toast.LENGTH_LONG).show();
+                break;
+            case 14:
+                Toast.makeText(this, personSelected + " is super random.", Toast.LENGTH_LONG).show();
                 break;
             case 17:
                 // by specific index
@@ -80,10 +86,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 20:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
-                break;
-            case 0:
-                // by specific index
-                Toast.makeText(this, personSelected + " wrote some mediocre code!!", Toast.LENGTH_LONG).show();
                 break;
             default:
                 // every case that wasn't specifically called out
@@ -127,11 +129,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, AlbrechtActivity.class);
             context.startActivity(intent);
-        } 
+        }
         else if (personSelected == "Paula Berggren") {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, BerggrenActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "John Marsden") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MarsdenActivity.class);
             context.startActivity(intent);
         }
     }
