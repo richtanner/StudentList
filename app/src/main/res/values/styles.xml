@@ -19,6 +19,12 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="KerskerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/orangeIsh</item>
+        <item name="colorPrimaryDark">@color/darkOrangeIsh</item>
+        <item name="colorAccent">@color/deepRed</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

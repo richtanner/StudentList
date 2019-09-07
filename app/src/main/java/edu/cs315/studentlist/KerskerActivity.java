@@ -14,7 +14,17 @@ public class KerskerActivity extends AppCompatActivity {
         "Two Older Sisters",
         "Built Computers At 13",
         "Learning Greek",
-        ""
+        "I like Pokemon",
+        "Πάτερ ἠμῶν",
+        "I can balance chairs",
+        "Flash or Spider-Man?",
+        "Dogs and Cats are great",
+        "Music is awesome",
+        "I like Taco Bell",
+        "Who wants Adventure?",
+        "I'm still learning Java",
+        "I am taking 7 classes",
+        "Colors are hard"
     };
 
     @Override
