@@ -3,4 +3,7 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+<!-- pbb new strings -->
+    <string name="my_name">Paula Berggren</string>
+    <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
 </resources>

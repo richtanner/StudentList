@@ -8,20 +8,19 @@ import android.widget.ListView;
 
 public class BerggrenActivity extends AppCompatActivity {
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_berggren);
-//    }
     ListView languageList;
 
-    // Array of strings...
-    String langArray[] = {
+    //Array of strings for listView
+    String langArray[] = new String[]{
             "About Me",
             "Resume",
             "Course List",
             "Grades",
+            "Clups",
+            "Chapel",
+            "Work",
             "Other"
+
     };
 
     @Override
