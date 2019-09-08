@@ -24,4 +24,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="WadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/tigerBlue</item>
+        <item name="colorPrimaryDark">@color/lightgrey</item>
+        <item name="colorAccent">@color/customBlue</item>
+    </style>
+
 </resources>
