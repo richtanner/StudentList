@@ -19,6 +19,20 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="FelixCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@color/customRed</item>
+        <item name="colorPrimary">@color/customRed</item>
+        <item name="colorPrimaryDark">@color/customBlueDark</item>
+
+        <item name="textAppearanceListItem">@color/customRed</item>
+        <item name="android:state_hovered">@color/customRed</item>
+
+    </style>
+
+
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
