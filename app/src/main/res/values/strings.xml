@@ -3,4 +3,11 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="visitedtitle">States I Have Been To</string>
+    <string name="niagara">Niagara Falls</string>
+    <string name="ok">Oklahoma</string>
+    <string name="la">Louisiana</string>
+    <string name="wa">Washington</string>
+    <string name="title_jade">J-Swizzle</string>
+
 </resources>

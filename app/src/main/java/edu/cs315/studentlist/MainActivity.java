@@ -63,6 +63,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
+            case 17:
+                // by specific index
+                Toast.makeText(this, personSelected + "'s Status: Camping", Toast.LENGTH_LONG).show();
+                break;
             case 20:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
@@ -74,11 +78,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected == "Rich Tanner") {
+        if (personSelected == "Jade Rupley") {
             // go to a new activity
             Context context = simpleList.getContext();
+            Intent jadeintent = new Intent(context, JadesActivity.class);
+            context.startActivity(jadeintent);
+        if (personSelected == "Rich Tanner") {
+            // go to a new activity
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
         }
     }
-}
+}}
