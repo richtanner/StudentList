@@ -6,6 +6,7 @@
 
 
     <string name="my_name">Kyle Lemons</string>
+    <string name="title_kyle_detail">Kyle Lemons</string>
     <string name="title_kyle">Just some plebeian</string>
     <string name="todo">TODO</string>
 </resources>
