@@ -15,7 +15,8 @@ public class CrawfordActivity extends AppCompatActivity {
             "Star Wars Battlefront 2",
             "Battlefield V",
             "Warframe",
-            "UFC 3"
+            "UFC 3",
+            "NBA 2K20"
     };
 
     @Override

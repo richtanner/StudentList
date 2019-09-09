@@ -7,8 +7,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/customOrange</item>
+        <item name="colorPrimaryDark">@color/customOrange</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
@@ -21,7 +21,7 @@
 
     <style name="CrawfordCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/customRed</item>
+        <item name="colorPrimary">@color/customYellow</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
