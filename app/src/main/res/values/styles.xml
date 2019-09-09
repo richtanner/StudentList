@@ -24,4 +24,9 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="GarciaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/customGreen</item>
+        <item name="colorPrimaryDark">@color/customOrange</item>
+    </style>
+
 </resources>
