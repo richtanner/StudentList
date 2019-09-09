@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="SplashTheme" parent="Theme.AppCompat.Light">
         <item name="android:windowBackground">@drawable/background_splash</item>
     </style>
 
@@ -12,7 +12,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="TannerCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AnnaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customBlue</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
