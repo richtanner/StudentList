@@ -12,7 +12,7 @@
         <activity
             android:name=".CrawfordActivity"
             android:label="Kelvin Crawford"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
             android:theme="@style/CrawfordCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

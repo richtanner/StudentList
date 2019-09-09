@@ -44,7 +44,8 @@
         android:contentDescription="@string/kcc_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars[10]" />
+        app:srcCompat="@drawable/myimage"
+        tools:srcCompat="@drawable/myimage" />
 
     <TextView
         android:id="@+id/textView5"

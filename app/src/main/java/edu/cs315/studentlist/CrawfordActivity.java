@@ -10,7 +10,7 @@ public class CrawfordActivity extends AppCompatActivity {
 
     ListView languageList;
 
-    String langArray[] = {
+    String[] langArray = {
             "Madden NFL 20",
             "Star Wars Battlefront 2",
             "Battlefield V",
