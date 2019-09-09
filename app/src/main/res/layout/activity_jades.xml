@@ -6,76 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".JadesActivity">
 
-    <ListView
-        android:id="@+id/jadesList"
-        android:layout_width="418dp"
-        android:layout_height="605dp"
-        android:layout_marginTop="136dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="0dp"
-        android:layout_height="25dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="108dp"
-        app:layout_constraintBottom_toTopOf="@+id/jadesList"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/jadeRed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/jade_list"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/visitedtitle" />
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="@string/niagara" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:contentDescription="@string/niagara"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/niagara" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="48dp"
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:contentDescription="@string/ok"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/trad" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/wa"
+        android:fontFamily="sans-serif"
+        android:text="@string/visitedtitle"
+        android:textAlignment="viewStart"
+        android:textColor="@color/jadeRed"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tree" />
+        tools:text="@string/visitedtitle" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="28dp"
-        android:contentDescription="@string/la"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/alligator" />
+    <ListView
+        android:id="@+id/jade_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

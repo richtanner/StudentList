@@ -3,14 +3,15 @@ package edu.cs315.studentlist;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class JadesActivity extends AppCompatActivity {
 
-    ListView simpleList;
+    ListView jadesList;
 
     // Array of strings...
-    String jadesList[] = {
+    String jadeArray[] = {
             "Alabama",
             "Arizona",
             "Arkansas",
@@ -41,5 +42,9 @@ public class JadesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jades);
+
+        jadesList = (ListView)findViewById(R.id.jade_list);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, jadeArray);
+        jadesList.setAdapter(arrayAdapter);
     }
 }
