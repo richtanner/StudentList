@@ -3,4 +3,8 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="title_albrecht_detail">Zachary Albrecht</string>
+    <string name="zca_name">Zachary Albrecht</string>
+    <string name="zca_title">Computer Science Major</string>
+    <string name="zca_subtitle">Business Administration Minor</string>
 </resources>
