@@ -12,20 +12,20 @@ public class KyleActivity extends AppCompatActivity {
 
     // Array of strings...
     String langArray[] = {
-            "Objective-C",
-            "Swift",
-            "C#",
-            "Java (Android)",
-            "Kotlin (soon...)",
-            "Java (standard)",
-            "C",
-            "C++",
-            "HTML",
-            "CSS",
-            "PHP",
-            "JavaScript (some)",
-            "ActionScript",
-            "BASIC (4evr ago)"
+            "Astros",
+            "A's",
+            "Angels",
+            "Yankees",
+            "Red Sox",
+            "Rays",
+            "Orioles",
+            "Blue Jays",
+            "Cardinals",
+            "Cubs",
+            "Dodgers",
+            "Reds",
+            "Pirates",
+            "Rangers"
     };
 
     @Override

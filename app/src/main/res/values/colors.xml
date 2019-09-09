@@ -8,5 +8,7 @@
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
     <color name="customDarkOrange">#c74906</color>
+    <color name="customOrange">#FFA500</color>
+    <color name="customOrangeRed">#FF4500</color>
 
 </resources>
