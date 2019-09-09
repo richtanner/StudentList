@@ -33,7 +33,7 @@ public class TannerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tanner);
 
-        languageList = (ListView)findViewById(R.id.language_list);
+        languageList = (ListView)findViewById(R.id.project_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, langArray);
         languageList.setAdapter(arrayAdapter);
     }
