@@ -25,8 +25,8 @@
     </style>
 
     <style name="GarciaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/customGreen</item>
-        <item name="colorPrimaryDark">@color/customOrange</item>
+        <item name="colorPrimary">@color/customOrange</item>
+        <item name="colorPrimaryDark">@color/customDarkOrange</item>
     </style>
 
 </resources>

@@ -66,6 +66,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
                 break;
+            case 6:
+                // by specific index
+                Toast.makeText(this, personSelected + " is cool", Toast.LENGTH_LONG).show();
+                break;
             default:
                 // every case that wasn't specifically called out
                 Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();

@@ -7,7 +7,7 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
-    <color name="customGreen">#228B22</color>
-    <color name="customOrange">#FFA500</color>
+    <color name="customDarkOrange">#DD9611</color>
+    <color name="customOrange">#E0B564</color>
 
 </resources>
