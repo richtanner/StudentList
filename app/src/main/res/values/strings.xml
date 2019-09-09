@@ -2,5 +2,6 @@
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
-    <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="rwt_title">List of Languages I\'ve used</string>
+    <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
 </resources>
