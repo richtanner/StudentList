@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">Favorite Movies of Anna</string>
-    <string name="title_tanner_detail">Anna Movie List</string>
-    <string name="rwt_name">Anna ter Kuile</string>
-    <string name="rwt_title">Movie Connoisseur</string>
+    <string name="app_name">CS315 Student List</string>
+    <string name="title_tanner_detail">Prof Tanner</string>
+    <string name="title_anna_detail">Anna ter Kuile, Movie Connoisseur</string>
+    <string name="rwt_name">Rich Tanner</string>
+    <string name="rwt_title">Clinical Professor of DET</string>
     <string name="favorite_movies_of_anna_ter_kuile_a_movie_connoisseur">Favorite Movies of Anna ter Kuile, a movie connoisseur</string>
     <string name="a_picture_of_scott_pilgrim">a picture of Scott Pilgrim</string>
+    <string name="a_movie_connoisseur">A Movie Connoisseur</string>
 </resources>
