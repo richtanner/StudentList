@@ -12,7 +12,7 @@ public class AnnaActivity extends AppCompatActivity {
 
     // Array of strings...
     String movArray[] = {
-            "Scott Pilgrim vs the World",
+            "Scott Pilgrim",
             "Thor: Ragnarok",
             "The Royal Tenenbaums",
             "The Internship",
@@ -21,13 +21,11 @@ public class AnnaActivity extends AppCompatActivity {
             "My Neighbor Totoro",
             "Juno",
             "Lady Bird",
-            "Spider-Man: Into the Spider-Verse",
             "Pretty in Pink",
             "Deadpool",
             "Let's Be Cops",
             "Booksmart",
-            "Mulan",
-            "Harry Potter: Order of the Phoenix"
+            "Mulan"
     };
 
     @Override
