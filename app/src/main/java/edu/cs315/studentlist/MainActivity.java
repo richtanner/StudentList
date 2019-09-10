@@ -91,5 +91,4 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             context.startActivity(intent);
         }
     }
-    //push
 }
