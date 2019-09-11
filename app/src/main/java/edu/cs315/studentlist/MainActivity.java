@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 //this a comment
+//another one
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     ListView simpleList;
