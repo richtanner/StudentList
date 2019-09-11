@@ -13,17 +13,31 @@
     </style>
 
     <style name="TannerCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <!-- Customize your theme here, with your own colors from colors.xml -->
         <item name="colorPrimary">@color/customBlue</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
-
+  
     <style name="AlbrechtCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/zca_light</item>
         <item name="colorPrimaryDark">@color/zca_dark</item>
         <item name="colorAccent">@color/zca_red</item>
+    </style>
+
+    <style name="JadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/jadeBlue</item>
+        <item name="colorPrimaryDark">@color/jadeBlueDark</item>
+        <item name="colorAccent">@color/jadeRed</item>
+    </style>
+
+    <style name="BerggrenCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/grass</item>
+        <item name="colorPrimaryDark">@color/forestGreen</item>
+        <item name="colorAccent">@color/lime</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
