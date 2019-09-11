@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // Array of strings...
     String peopleList[] = {
-            "Zack Albrecht",
+            "Zach Albrecht",
             "Paula Berggren",
             "JC Campbell",
             "Yodeli Castillo",
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Lamont",
             "Kyle Lemons",
             "Wade Linder",
-            "Josh Marsden",
+            "John Marsden",
             "Felix Angelo Mbikogbia",
             "Mitchell Melrose",
             //Jade is 17th on this list
@@ -61,6 +61,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // get the value of the string in the specific position of the array that was selected (tapped on)
         String personSelected = (String) simpleList.getAdapter().getItem(position);
 
+        /**
+         * There are TWO DIFFERENT EXAMPLES of how one might figure out which 'thing' was tapped below
+         * BOTH work.
+         * You don't NEED both, they are just both here to show that you could do it different ways
+         */
+
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
             case 17:
@@ -87,6 +93,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if (personSelected == "Rich Tanner") {
             // go to a new activity
             Intent intent = new Intent(context, TannerActivity.class);
+            context.startActivity(intent);
+        }
+        if (personSelected == "Paula Berggren") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, BerggrenActivity.class);
             context.startActivity(intent);
         }
     }
