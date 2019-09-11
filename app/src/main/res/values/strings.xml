@@ -6,4 +6,6 @@
 <!-- pbb new strings -->
     <string name="my_name">Paula Berggren</string>
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
+    <string name="rwt_title">Languages I\'ve Used</string>
+    <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
 </resources>
