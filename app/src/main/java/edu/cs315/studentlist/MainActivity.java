@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-
+//this a comment
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     ListView simpleList;
