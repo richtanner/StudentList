@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     ListView simpleList;
-
+    //commit
     // Array of strings...
     String peopleList[] = {
             "Zach Albrecht",
