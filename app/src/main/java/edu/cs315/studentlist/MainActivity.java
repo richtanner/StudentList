@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         simpleList = (ListView)findViewById(R.id.simpleListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
-        simpleList.setOnItemClickListener(this);  // set THIS class as the listener
+        simpleList.setOnItemClickListener(this);  // set THIS class as the listener //its not working
     }
 
     @Override
