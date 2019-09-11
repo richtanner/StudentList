@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);      setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         simpleList = (ListView)findViewById(R.id.simpleListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
@@ -69,6 +70,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
+            case 10:
+                Toast.makeText(this,personSelected + " A.K.A. JFK", Toast.LENGTH_LONG).show();
+                break;
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + "'s Status: Camping", Toast.LENGTH_LONG).show();
@@ -94,16 +98,23 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent jadeintent = new Intent(context, JadesActivity.class);
             context.startActivity(jadeintent);
 
-        if (personSelected == "Rich Tanner") {
+        else if (personSelected == "Rich Tanner") {
             // go to a new activity
+            Context context = simpleList.getContext();
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
         }
-        if (personSelected == "Kyle Lemons") {
+        else if (personSelected == "Josh Kersker") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, KerskerActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Kyle Lemons") {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, KyleActivity.class);
-        if (personSelected == "Paula Berggren") {
+            context.startActivity(intent);
+        }
         else if (personSelected == "Zach Albrecht") {
             // go to a new activity
             Context context = simpleList.getContext();

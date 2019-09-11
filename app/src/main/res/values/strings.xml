@@ -2,7 +2,10 @@
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
-    <string name="rwt_title">Clinical Professor of DET</string>
+  
+    <string name="title_kersker_detail">JFK are my initials</string>
+    <string name="jfk_name">Joshua Kersker</string>
+    <string name="jfk_title">Ministry Major CS/IT Minor</string>
   
     <string name="kyle_name">Kyle Lemons</string>
     <string name="title_kyle_detail">Kyle Lemons</string>
@@ -24,7 +27,6 @@
 <!-- pbb new strings -->
     <string name="my_name">Paula Berggren</string>
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
-
     <string name="rwt_title">Languages I\'ve Used</string>
     <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
 

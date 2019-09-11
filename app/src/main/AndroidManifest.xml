@@ -39,10 +39,24 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".KerskerActivity"
+            android:label="JFK"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/KerskerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".JadesActivity"
             android:label="@string/title_jade"
             android:parentActivityName=".MainActivity"
             android:theme="@style/JadeCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+         </activity>
+         <activity
             android:name=".BerggrenActivity"
             android:label="@string/my_name"
             android:parentActivityName=".MainActivity"
