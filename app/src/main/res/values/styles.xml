@@ -18,6 +18,16 @@
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
+
+
+    <style name="KyleCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/customOrangeRed</item>
+        <item name="colorPrimaryDark">@color/customDarkOrange</item>
+        <item name="colorAccent">@color/customRed</item>
+    </style>
+
+
   
     <style name="AlbrechtCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -32,6 +42,7 @@
         <item name="colorPrimaryDark">@color/jadeBlueDark</item>
         <item name="colorAccent">@color/jadeRed</item>
     </style>
+
 
     <style name="BerggrenCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
