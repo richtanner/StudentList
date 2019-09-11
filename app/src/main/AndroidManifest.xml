@@ -10,10 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+
             android:name=".WadeActivity"
             android:label="@string/title_wade_detail"
             android:parentActivityName=".MainActivity"
             android:theme="@style/WadeCustomTheme">
+
+            android:name=".KyleActivity"
+            android:label="@string/title_kyle_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/KyleCustomTheme">
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -27,6 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".TannerActivity"
@@ -34,9 +42,36 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/TannerCustomTheme">
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity
+            android:name=".JadesActivity"
+            android:label="@string/title_jade"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JadeCustomTheme">
+            android:name=".BerggrenActivity"
+            android:label="@string/my_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/BerggrenCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".AlbrechtActivity"
+            android:theme="@style/AlbrechtCustomTheme"
+            android:label="@string/title_albrecht_detail"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>
