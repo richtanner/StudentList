@@ -10,4 +10,9 @@
     <color name="orangeIsh">#dcb60b</color>
     <color name="darkOrangeIsh">#a88b08</color>
     <color name="deepRed">#bd0d06</color>
+    <color name="myRed">#850976</color>
+    <color name="forestGreen">#2E4600</color>
+    <color name="grass">#286B00</color>
+    <color name="lime">#A2C523</color>
+    <!-- Create your OWN colors for your theme -->
 </resources>
