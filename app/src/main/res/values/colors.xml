@@ -7,10 +7,12 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
+    <color name="jadeBlue">#89f0e3</color>
+    <color name="jadeBlueDark">#6fbdb3</color>
+    <color name="jadeRed">#d8285d</color>
     <color name="myRed">#850976</color>
     <color name="forestGreen">#2E4600</color>
     <color name="grass">#286B00</color>
     <color name="lime">#A2C523</color>
-
     <!-- Create your OWN colors for your theme -->
 </resources>

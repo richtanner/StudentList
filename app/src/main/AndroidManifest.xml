@@ -29,6 +29,10 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".JadesActivity"
+            android:label="@string/title_jade"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JadeCustomTheme">
             android:name=".BerggrenActivity"
             android:label="@string/my_name"
             android:parentActivityName=".MainActivity"

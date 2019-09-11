@@ -2,6 +2,13 @@
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
+  <!-- jsr new strings -->
+    <string name="visitedtitle">States I\'ve Been To: 27</string>
+    <string name="niagara">Niagara Falls, NY</string>
+    <string name="ok">Oklahoma</string>
+    <string name="la">Louisiana</string>
+    <string name="wa">Washington</string>
+    <string name="title_jade">J-Swizzle</string>
 <!-- pbb new strings -->
     <string name="my_name">Paula Berggren</string>
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
