@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".FelixActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/fab_name"
+            android:theme="@style/FelixCustomTheme"
+            ></activity>
+
         <activity
             android:name=".KyleActivity"
             android:label="@string/title_kyle_detail"
@@ -27,7 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".TannerActivity"

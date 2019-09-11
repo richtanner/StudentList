@@ -2,6 +2,11 @@
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
+    <string name="rwt_title">Clinical Professor of DET</string>
+
+
+    <string name="fab_name">Felix Mbikogbia</string>
+    <string name="fab_title">Web Manager, NEXT Lab</string>
   
     <string name="title_kersker_detail">JFK are my initials</string>
     <string name="jfk_name">Joshua Kersker</string>
