@@ -10,10 +10,14 @@
     <color name="customDarkOrange">#c74906</color>
     <color name="customOrange">#FFA500</color>
     <color name="customOrangeRed">#FF4500</color>
+    <color name="zca_dark">#264653</color>
+    <color name="zca_red">#ed553b</color>
+    <color name="zca_light">#2a9d8f</color>
+    <color name="jadeBlue">#89f0e3</color>
+    <color name="jadeBlueDark">#6fbdb3</color>
+    <color name="jadeRed">#d8285d</color>
     <color name="myRed">#850976</color>
     <color name="forestGreen">#2E4600</color>
     <color name="grass">#286B00</color>
     <color name="lime">#A2C523</color>
-
-    <!-- Create your OWN colors for your theme -->
 </resources>
