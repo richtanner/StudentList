@@ -10,5 +10,10 @@
     <color name="customDarkOrange">#c74906</color>
     <color name="customOrange">#FFA500</color>
     <color name="customOrangeRed">#FF4500</color>
+    <color name="myRed">#850976</color>
+    <color name="forestGreen">#2E4600</color>
+    <color name="grass">#286B00</color>
+    <color name="lime">#A2C523</color>
 
+    <!-- Create your OWN colors for your theme -->
 </resources>
