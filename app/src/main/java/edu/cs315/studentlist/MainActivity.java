@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "John Marsden",
             "Felix Angelo Mbikogbia",
             "Mitchell Melrose",
+            //Jade is 17th on this list
             "Jade Rupley",
             "JD Schwiethale",
             "Anand Shah",
@@ -72,9 +73,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 10:
                 Toast.makeText(this,personSelected + " A.K.A. JFK", Toast.LENGTH_LONG).show();
                 break;
+            case 17:
+                // by specific index
+                Toast.makeText(this, personSelected + "'s Status: Camping", Toast.LENGTH_LONG).show();
+                break;
             case 20:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
+                break;
+            case 0:
+                // by specific index
+                Toast.makeText(this, personSelected + " wrote some mediocre code!!", Toast.LENGTH_LONG).show();
                 break;
             default:
                 // every case that wasn't specifically called out
@@ -83,9 +92,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected == "Rich Tanner") {
+        if (personSelected == "Jade Rupley") {
             // go to a new activity
             Context context = simpleList.getContext();
+            Intent jadeintent = new Intent(context, JadesActivity.class);
+            context.startActivity(jadeintent);
+
+        else if (personSelected == "Rich Tanner") {
+            // go to a new activity
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
         }
@@ -94,6 +108,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, KerskerActivity.class);
             context.startActivity(intent);
         }
+        else if (personSelected == "Zach Albrecht") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AlbrechtActivity.class);
+            context.startActivity(intent);
+        } 
         else if (personSelected == "Paula Berggren") {
             // go to a new activity
             Context context = simpleList.getContext();
@@ -101,4 +121,4 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             context.startActivity(intent);
         }
     }
-}
+}}

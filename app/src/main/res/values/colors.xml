@@ -10,6 +10,12 @@
     <color name="orangeIsh">#dcb60b</color>
     <color name="darkOrangeIsh">#a88b08</color>
     <color name="deepRed">#bd0d06</color>
+    <color name="zca_dark">#264653</color>
+    <color name="zca_red">#ed553b</color>
+    <color name="zca_light">#2a9d8f</color>
+    <color name="jadeBlue">#89f0e3</color>
+    <color name="jadeBlueDark">#6fbdb3</color>
+    <color name="jadeRed">#d8285d</color>
     <color name="myRed">#850976</color>
     <color name="forestGreen">#2E4600</color>
     <color name="grass">#286B00</color>

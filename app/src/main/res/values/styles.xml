@@ -18,11 +18,25 @@
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
-
+  
     <style name="KerskerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/orangeIsh</item>
         <item name="colorPrimaryDark">@color/darkOrangeIsh</item>
         <item name="colorAccent">@color/deepRed</item>
+    </style>
+  
+    <style name="AlbrechtCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/zca_light</item>
+        <item name="colorPrimaryDark">@color/zca_dark</item>
+        <item name="colorAccent">@color/zca_red</item>
+    </style>
+
+    <style name="JadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/jadeBlue</item>
+        <item name="colorPrimaryDark">@color/jadeBlueDark</item>
+        <item name="colorAccent">@color/jadeRed</item>
     </style>
 
     <style name="BerggrenCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
