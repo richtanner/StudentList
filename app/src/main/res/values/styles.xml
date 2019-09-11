@@ -24,7 +24,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="JDCustomTheme" parrent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="JDCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/JDBlue</item>
         <item name="colorPrimaryDark">@color/JDCyan</item>
         <item name="colorAccent">@color/JDRed</item>
