@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Context context = simpleList.getContext();
             Intent jadeintent = new Intent(context, JadesActivity.class);
             context.startActivity(jadeintent);
-
+        }
         else if (personSelected == "Rich Tanner") {
             // go to a new activity
             Context context = simpleList.getContext();
@@ -128,4 +128,4 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             context.startActivity(intent);
         }
     }
-}}
+}
