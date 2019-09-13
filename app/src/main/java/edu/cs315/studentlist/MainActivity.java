@@ -116,6 +116,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, GibbsActivity.class);
             context.startActivity(intent);
         }
+
+       
+        else if (personSelected == "Kelvin Crawford") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, CrawfordActivity.class);
         else if (personSelected == "Felix Mbikogbia") {
             // go to a new activity
             Context context = simpleList.getContext();

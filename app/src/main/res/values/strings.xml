@@ -7,6 +7,10 @@
     <string name="wtg_name">Will Gibbs</string>
     <string name="wtg_title">Despite everything, it\'s still me.</string>
 
+    <string name="kcc_name">Kelvin Crawford</string>
+    <string name="title_crawford_detail">Kelvin Crawford</string>
+    <string name="kcc_title">Computer Science Student</string>
+
 
     <string name="fab_name">Felix Mbikogbia</string>
     <string name="fab_title">Web Manager, NEXT Lab</string>
@@ -35,7 +39,6 @@
 <!-- pbb new strings -->
     <string name="my_name">Paula Berggren</string>
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
-    <string name="rwt_title">Languages I\'ve Used</string>
     <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
 
 </resources>
