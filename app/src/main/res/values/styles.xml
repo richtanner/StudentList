@@ -7,8 +7,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/customOrange</item>
-        <item name="colorPrimaryDark">@color/customOrange</item>
+        <item name="colorPrimary">@color/KelvinOrange</item>
+        <item name="colorPrimaryDark">@color/KelvinOrange</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 

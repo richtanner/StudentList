@@ -11,7 +11,12 @@
     <color name="gibbsPurple">#5000AA</color>
     <color name="customRed">#a41c43</color>
     <color name="customYellow">#a49c43</color>
+
+    <color name="KelvinOrange">#a85e13</color>
+
+
     <color name="customOrange">#a85e13</color>
+
     <color name="backgroundColor">#286e9b</color>
     <color name="orangeIsh">#dcb60b</color>
     <color name="darkOrangeIsh">#a88b08</color>
