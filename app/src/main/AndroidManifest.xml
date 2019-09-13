@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".LamontActivity"></activity>
+=======
+
         <activity android:name=".GibbsActivity"
             android:label="@string/title_gibbs_detail"
             android:parentActivityName=".MainActivity"
@@ -40,6 +43,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <activity
             android:name=".JerryActivity"
             android:label="@string/title_Jerry_detail"
@@ -58,6 +62,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
+=======
 
         <activity android:name=".MainActivity"></activity>
 
@@ -74,6 +80,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/TannerCustomTheme">
             <meta-data
+=======
 
 
 
@@ -81,6 +88,13 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".LamontActivity"
+            android:label="@string/title_lamont_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/LamontCustomTheme">
+            <meta-data
+=======
+=======
 
             android:name=".BradyActivity"
             android:label="@string/title_brady_detail"
