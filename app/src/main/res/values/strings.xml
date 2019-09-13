@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
+    <string name="title_gibbs_detail">American Kirby</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="wtg_name">Will Gibbs</string>
+    <string name="wtg_title">Despite everything, it\'s still me.</string>
 
     <string name="kcc_name">Kelvin Crawford</string>
     <string name="title_crawford_detail">Kelvin Crawford</string>
