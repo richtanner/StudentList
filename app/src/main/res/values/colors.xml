@@ -7,6 +7,11 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
+
+    <color name="JerryBackground">#176917</color>
+    <color name="JerryFont">#000000</color>
+
+
     <color name="black">#000000</color>
     <color name="gibbsPurple">#5000AA</color>
     <color name="customRed">#a41c43</color>
@@ -35,4 +40,5 @@
     <color name="grass">#286B00</color>
     <color name="lime">#A2C523</color>
     <!-- Create your OWN colors for your theme -->
+
 </resources>

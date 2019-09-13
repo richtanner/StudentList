@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     ListView simpleList;
 
+    // here is some comments
+
     // Array of strings...
     String peopleList[] = {
             "Zach Albrecht",
@@ -88,9 +90,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
                 break;
+
+            case 8:
+                // by specific index
+                Toast.makeText(this, personSelected + " Falling Asleep!!!!", Toast.LENGTH_LONG).show();
+
             case 0:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some mediocre code!!", Toast.LENGTH_LONG).show();
+
                 break;
             default:
                 // every case that wasn't specifically called out
@@ -149,6 +157,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, BerggrenActivity.class);
+            context.startActivity(intent);
+        }
+
+        if (personSelected == "Jerry Guo") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, JerryActivity.class);
             context.startActivity(intent);
         }
     }
