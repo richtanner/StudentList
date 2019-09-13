@@ -7,8 +7,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/customOrange</item>
-        <item name="colorPrimaryDark">@color/customOrange</item>
+        <item name="colorPrimary">@color/KelvinOrange</item>
+        <item name="colorPrimaryDark">@color/KelvinOrange</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
@@ -18,6 +18,21 @@
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
+
+
+
+    <style name="BradyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/customGreen</item>
+        <item name="colorPrimaryDark">@color/customGreenDark</item>
+        <item name="colorAccent">@color/customRed</item>
+
+    <style name="JerryCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/JerryBackground</item>
+
+    </style>
+
 
     <style name="GibbsCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -83,6 +98,7 @@
         <item name="colorAccent">@color/lime</item>
     </style>
  
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
