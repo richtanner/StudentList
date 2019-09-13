@@ -4,6 +4,10 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
 
+    <string name="kcc_name">Kelvin Crawford</string>
+    <string name="title_crawford_detail">Kelvin Crawford</string>
+    <string name="kcc_title">Computer Science Student</string>
+
 
     <string name="fab_name">Felix Mbikogbia</string>
     <string name="fab_title">Web Manager, NEXT Lab</string>
