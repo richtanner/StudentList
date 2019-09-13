@@ -49,7 +49,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         simpleList = (ListView)findViewById(R.id.simpleListView);
+
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
         simpleList.setOnItemClickListener(this);  // set THIS class as the listener
@@ -70,12 +72,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
+
+            case 7:
+                Toast.makeText(this, personSelected + " did nothing wrong.", Toast.LENGTH_LONG).show();
+
             case 10:
                 Toast.makeText(this,personSelected + " A.K.A. JFK", Toast.LENGTH_LONG).show();
                 break;
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + "'s Status: Camping", Toast.LENGTH_LONG).show();
+
                 break;
             case 20:
                 // by specific index
@@ -102,6 +109,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, TannerActivity.class);
+            context.startActivity(intent);
+        } else if (personSelected == "Will Gibbs") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, GibbsActivity.class);
             context.startActivity(intent);
         }
 
