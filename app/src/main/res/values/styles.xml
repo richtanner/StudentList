@@ -7,23 +7,90 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/customOrange</item>
+        <item name="colorPrimaryDark">@color/customOrange</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="TannerCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <!-- Customize your theme here, with your own colors from colors.xml -->
         <item name="colorPrimary">@color/customBlue</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
+
 
     <style name="JerryCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/JerryBackground</item>
 
     </style>
+
+
+    <style name="GibbsCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/gibbsPurple</item>
+        <item name="colorAccent">@color/customRed</item>
+    </style>
+
+    <style name="CrawfordCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/customYellow</item>
+        <item name="colorPrimaryDark">@color/customBlueDark</item>
+        <item name="colorAccent">@color/customRed</item>
+    </style>
+
+    <style name="FelixCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@color/customRed</item>
+        <item name="colorPrimary">@color/customRed</item>
+        <item name="colorPrimaryDark">@color/customBlueDark</item>
+
+        <item name="textAppearanceListItem">@color/customRed</item>
+        <item name="android:state_hovered">@color/customRed</item>
+
+    </style>
+
+
+    <style name="KyleCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/customOrangeRed</item>
+        <item name="colorPrimaryDark">@color/customDarkOrange</item>
+        <item name="colorAccent">@color/customRed</item>
+    </style>
+
+
+  
+    <style name="KerskerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/orangeIsh</item>
+        <item name="colorPrimaryDark">@color/darkOrangeIsh</item>
+        <item name="colorAccent">@color/deepRed</item>
+    </style>
+  
+    <style name="AlbrechtCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/zca_light</item>
+        <item name="colorPrimaryDark">@color/zca_dark</item>
+        <item name="colorAccent">@color/zca_red</item>
+    </style>
+
+    <style name="JadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/jadeBlue</item>
+        <item name="colorPrimaryDark">@color/jadeBlueDark</item>
+        <item name="colorAccent">@color/jadeRed</item>
+    </style>
+
+
+    <style name="BerggrenCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/grass</item>
+        <item name="colorPrimaryDark">@color/forestGreen</item>
+        <item name="colorAccent">@color/lime</item>
+    </style>
+ 
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
