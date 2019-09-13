@@ -2,15 +2,23 @@
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
 
+
     <string name="title_Jerry_detail">Jerry The Sleeper</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="sxg_name">Sihong Guo</string>
     <string name="sxg_title">Professional Sleeper</string>
 
+
     <string name="title_gibbs_detail">American Kirby</string>
+
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+
+    <string name="bcc_title">Senior Student in DET</string>
+    <string name="bcc_name">Brady Cox</string>
+    <string name="title_brady_detail">Brady Cox</string>
+
     <string name="wtg_name">Will Gibbs</string>
     <string name="wtg_title">Despite everything, it\'s still me.</string>
 
@@ -47,5 +55,6 @@
     <string name="my_name">Paula Berggren</string>
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
     <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
+
 
 </resources>

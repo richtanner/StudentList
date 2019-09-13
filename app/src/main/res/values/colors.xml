@@ -8,8 +8,12 @@
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
 
+    <color name="customGreen">#24791E</color>
+    <color name="customGreenDark">#214A1E</color>
+
     <color name="JerryBackground">#176917</color>
     <color name="JerryFont">#000000</color>
+
 
 
     <color name="black">#000000</color>
