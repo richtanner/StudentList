@@ -11,12 +11,21 @@
     <color name="customGreen">#24791E</color>
     <color name="customGreenDark">#214A1E</color>
 
+    <color name="JerryBackground">#176917</color>
+    <color name="JerryFont">#000000</color>
+
+
 
     <color name="black">#000000</color>
     <color name="gibbsPurple">#5000AA</color>
     <color name="customRed">#a41c43</color>
     <color name="customYellow">#a49c43</color>
+
+    <color name="KelvinOrange">#a85e13</color>
+
+
     <color name="customOrange">#a85e13</color>
+
     <color name="backgroundColor">#286e9b</color>
     <color name="orangeIsh">#dcb60b</color>
     <color name="darkOrangeIsh">#a88b08</color>

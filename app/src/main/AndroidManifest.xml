@@ -41,6 +41,15 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".JerryActivity"
+            android:label="@string/title_Jerry_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JerryCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -51,6 +60,8 @@
         </activity>
 
         <activity android:name=".MainActivity"></activity>
+
+
 
 
 
