@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Main2Activity">
+            android:name=".Main2Activity"
             android:label="Ruben Yanez"
             android:parentActivityName=".MainActivity"
             android:theme="@style/YanezCustomTheme">
@@ -28,13 +28,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
-        <activity android:label="@string/title_tanner_detail"
+        <activity
+            android:name=".TannerActivity"
+            android:label="@string/title_tanner_detail"
         android:parentActivityName=".MainActivity"
         android:theme="@style/TannerCustomTheme">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
-            android:name=".TannerActivity"
 
         </activity>
     </application>

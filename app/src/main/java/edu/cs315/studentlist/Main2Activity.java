@@ -8,11 +8,14 @@ import android.widget.ListView;
 
 public class Main2Activity extends AppCompatActivity {
 
-    ListView languageList;  // call YOUR listView something that makes sense for YOU
-
+    ListView RubensList;  // call YOUR listView something that makes sense for YOU
+    //push two
     // Array of strings...
     // call YOUR array something that makes sense for YOU
-    String langArray[] = {
+    String Teamsarray[] = {
+
+
+
             "Optic",
             "Faze",
             "Envy",
@@ -30,8 +33,8 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        languageList = (ListView)findViewById(R.id.language_list);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);
-        languageList.setAdapter(arrayAdapter);
+        RubensList = (ListView)findViewById(R.id.Rubens_list);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, Teamsarray);
+        RubensList.setAdapter(arrayAdapter);
     }
 }
