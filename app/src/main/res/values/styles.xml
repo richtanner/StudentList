@@ -7,8 +7,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/KelvinOrange</item>
-        <item name="colorPrimaryDark">@color/KelvinOrange</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
@@ -26,11 +26,11 @@
         <item name="colorPrimary">@color/customGreen</item>
         <item name="colorPrimaryDark">@color/customGreenDark</item>
         <item name="colorAccent">@color/customRed</item>
+    </style>
 
     <style name="JerryCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/JerryBackground</item>
-
     </style>
 
 
@@ -45,7 +45,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customYellow</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
-        <item name="colorAccent">@color/customRed</item>
+        <item name="colorAccent">@color/crawford_customRed</item>
     </style>
 
     <style name="FelixCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -57,7 +57,6 @@
 
         <item name="textAppearanceListItem">@color/customRed</item>
         <item name="android:state_hovered">@color/customRed</item>
-
     </style>
 
 
