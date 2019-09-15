@@ -17,6 +17,11 @@
     <color name="customYellow">#a49c43</color>
     <color name="KelvinOrange">#a85e13</color>
     <color name="crawford_customOrange">#a85e13</color>
+    <color name="jmmCocoaBrown">#d2730f</color>
+    <color name="jmmSmokyBlack">#0c0c0c</color>
+    <color name="jmmJet">#3a3335</color>
+    <color name="jmmMaastrichtBlue">#031927</color>
+    <color name="jmmIsabelline">#f3e8ee</color>
     <color name="backgroundColor">#286e9b</color>
     <color name="orangeIsh">#dcb60b</color>
     <color name="darkOrangeIsh">#a88b08</color>

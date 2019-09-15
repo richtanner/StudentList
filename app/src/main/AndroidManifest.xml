@@ -113,7 +113,16 @@
         </activity>
 
         <activity android:name=".MainActivity" />
-
+        
+        <activity
+            android:name=".MarsdenActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JMMCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+      
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">

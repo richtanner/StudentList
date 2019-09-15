@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "John Marsden",
             "Felix Mbikogbia",
             "Mitchell Melrose",
-            //Jade is 17th on this list
             "Jade Rupley",
             "JD Schwiethale",
             "Anand Shah",
@@ -85,9 +84,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 8:
                 Toast.makeText(this, personSelected + " Falling Asleep!!!!", Toast.LENGTH_LONG).show();
                 break;
-
+            
             case 10:
                 Toast.makeText(this,personSelected + " A.K.A. JFK", Toast.LENGTH_LONG).show();
+                break;
+            case 14:
+                Toast.makeText(this, personSelected + " is super random.", Toast.LENGTH_LONG).show();
                 break;
             case 17:
                 Toast.makeText(this, personSelected + "'s Status: Camping", Toast.LENGTH_LONG).show();
@@ -149,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, AlbrechtActivity.class);
             context.startActivity(intent);
-        } 
+        }
         else if (personSelected == "Paula Berggren") {
             // go to a new activity
             Context context = simpleList.getContext();
@@ -174,6 +176,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, JerryActivity.class);
             context.startActivity(intent);
         }
-
+        else if (personSelected == "John Marsden") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MarsdenActivity.class);
+            context.startActivity(intent);
+        }
     }
 }
