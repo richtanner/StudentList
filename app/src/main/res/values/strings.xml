@@ -6,4 +6,39 @@
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="wtg_name">Will Gibbs</string>
     <string name="wtg_title">Despite everything, it\'s still me.</string>
+
+    <string name="kcc_name">Kelvin Crawford</string>
+    <string name="title_crawford_detail">Kelvin Crawford</string>
+    <string name="kcc_title">Computer Science Student</string>
+
+
+    <string name="fab_name">Felix Mbikogbia</string>
+    <string name="fab_title">Web Manager, NEXT Lab</string>
+  
+    <string name="title_kersker_detail">JFK are my initials</string>
+    <string name="jfk_name">Joshua Kersker</string>
+    <string name="jfk_title">Ministry Major CS/IT Minor</string>
+  
+    <string name="kyle_name">Kyle Lemons</string>
+    <string name="title_kyle_detail">Kyle Lemons</string>
+    <string name="title_kyle">Just some plebeian</string>
+
+    <string name="title_albrecht_detail">Zachary Albrecht</string>
+    <string name="zca_name">Zachary Albrecht</string>
+    <string name="zca_title">Computer Science Major</string>
+    <string name="zca_subtitle">Business Administration Minor</string>
+  
+  <!-- jsr new strings -->
+    <string name="visitedtitle">States I\'ve Been To: 27</string>
+    <string name="niagara">Niagara Falls, NY</string>
+    <string name="ok">Oklahoma</string>
+    <string name="la">Louisiana</string>
+    <string name="wa">Washington</string>
+    <string name="title_jade">J-Swizzle</string>
+
+<!-- pbb new strings -->
+    <string name="my_name">Paula Berggren</string>
+    <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
+    <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
+
 </resources>
