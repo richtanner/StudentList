@@ -113,6 +113,7 @@
         <item name="colorPrimary">@color/tigerBlue</item>
         <item name="colorPrimaryDark">@color/lightgrey</item>
         <item name="colorAccent">@color/customBlue</item>
+    </style>
 
     <style name="JDCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/JDBlue</item>

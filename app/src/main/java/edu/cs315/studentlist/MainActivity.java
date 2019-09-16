@@ -94,12 +94,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Toast.makeText(this, personSelected + "'s Status: Camping", Toast.LENGTH_LONG).show();
                 break;
 
-            case 20:
-                Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
+            case 18:
+                Toast.makeText(this, personSelected + " made a list of food.", Toast.LENGTH_LONG) .show();
                 break;
 
-
-                Toast.makeText(this, personSelected + " made a list of food.", Toast.LENGTH_LONG) .show();
+            case 20:
+                Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
                 break;
 
             default:
@@ -127,10 +127,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, WadeActivity.class);
-
+        }
         else if (personSelected == "JD Schwiethale") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, SchwiethaleActivity.class);
+            context.startActivity(intent);
+        }
         else if (personSelected == "Will Gibbs") {
             // go to a new activity
             Context context = simpleList.getContext();
