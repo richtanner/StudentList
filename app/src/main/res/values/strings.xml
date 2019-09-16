@@ -7,6 +7,12 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
 
+    <!-- wsl new strings -->
+    <string name="title_wade_detail">W. Linder</string>
+    <string name="page_name">Wade Linder</string>
+    <string name="page_title">CS Major</string>
+
+
     <string name="jds_name">JD Schwiethale</string>
     <string name="jds_detail">JD Schwiethale</string>
 
