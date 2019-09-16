@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="edu.cs315.studentlist">
 
     <application
@@ -9,6 +10,88 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".AlbrechtActivity"
+            android:theme="@style/AlbrechtCustomTheme"
+            android:label="@string/title_albrecht_detail"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".BerggrenActivity"
+            android:label="@string/my_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/BerggrenCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".CrawfordActivity"
+            android:label="Kelvin Crawford"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/CrawfordCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".FelixActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/fab_name"
+            android:theme="@style/FelixCustomTheme"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".GibbsActivity"
+            android:label="@string/title_gibbs_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/GibbsCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".JadesActivity"
+            android:label="@string/title_jade"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JadeCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".JerryActivity"
+            android:label="@string/title_Jerry_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JerryCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".KerskerActivity"
+            android:label="JFK"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/KerskerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity
 
             android:name=".WadeActivity"
@@ -21,13 +104,38 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/KyleCustomTheme">
 
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
+        <activity
+            android:name=".LamontActivity"
+            android:label="@string/title_lamont_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/LamontCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".MainActivity" />
+        
+        <activity
+            android:name=".MarsdenActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JMMCustomTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+      
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,7 +143,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
@@ -46,30 +153,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity
-            android:name=".JadesActivity"
-            android:label="@string/title_jade"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/JadeCustomTheme">
-            android:name=".BerggrenActivity"
-            android:label="@string/my_name"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/BerggrenCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
 
         <activity
-            android:name=".AlbrechtActivity"
-            android:theme="@style/AlbrechtCustomTheme"
-            android:label="@string/title_albrecht_detail"
-            android:parentActivityName=".MainActivity">
-
+            android:name=".SchwiethaleActivity"
+            android:label="@string/jds_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JDCustomTheme">
             <meta-data
 
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+
         </activity>
 
     </application>
