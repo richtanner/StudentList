@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     ListView simpleList;
 
-    // here is some comments
 
     // Array of strings...
     String peopleList[] = {
@@ -99,6 +98,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
                 break;
 
+
+                Toast.makeText(this, personSelected + " made a list of food.", Toast.LENGTH_LONG) .show();
+                break;
+
             default:
                 // every case that wasn't specifically called out
                 Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
@@ -118,6 +121,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
         }
+        else if (personSelected == "JD Schwiethale") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, SchwiethaleActivity.class);
         else if (personSelected == "Will Gibbs") {
             // go to a new activity
             Context context = simpleList.getContext();
