@@ -111,8 +111,9 @@
 
     <style name="GarciaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/customOrange</item>
-        <item name="colorPrimaryDark">@color/customDarkOrange</item>
-    <style>
+        <item name="colorPrimaryDark">@color/customDarkOrange_AMG</item>
+    </style>
+
     <style name="WadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/tigerBlue</item>
         <item name="colorPrimaryDark">@color/lightgrey</item>
