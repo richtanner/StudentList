@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#070707</color>
     <color name="colorAccent">#D81B60</color>
     <color name="splashColor">#3F3F3F</color>
     <color name="customBlue">#315A70</color>
@@ -9,6 +9,8 @@
     <color name="customRed">#a43c43</color>
     <color name="customDarkOrange_AMG">#DD9611</color>
     <color name="customOrange">#E0B564</color>
+    <color name="customPurple">#805B66</color>
+    <color name="customOrange">#c47a12</color>
     <color name="lightgrey">#696969</color>
     <color name="tigerBlue">#0073cf</color>
     <color name="JDBlue">#4169e1</color>
@@ -33,7 +35,7 @@
     <color name="orangeIsh">#dcb60b</color>
     <color name="darkOrangeIsh">#a88b08</color>
     <color name="deepRed">#bd0d06</color>
-    <color name="customDarkOrange">#c74906</color>
+<!--    <color name="customDarkOrange">#c74906</color>-->
     <color name="lemons_customOrange">#FFA500</color>
     <color name="customOrangeRed">#FF4500</color>
     <color name="zca_dark">#264653</color>
@@ -48,4 +50,6 @@
     <color name="lime">#A2C523</color>
     <!-- Create your OWN colors for your theme -->
 
+
+    <color name="listYC">#EC7063</color>
 </resources>

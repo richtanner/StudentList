@@ -99,11 +99,16 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/WadeCustomTheme">
 
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
             android:name=".KyleActivity"
             android:label="@string/title_kyle_detail"
             android:parentActivityName=".MainActivity"
             android:theme="@style/KyleCustomTheme">
-
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -133,12 +138,30 @@
         </activity>
       
         <activity
+                  
+            android:name=".Main2Activity"
+            android:label="Ruben Yanez"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/YanezCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+      </activity>
+      <activity
             android:name=".GarciaActivity"
             android:label="Atom Bomb"
             android:parentActivityName=".MainActivity"
             android:theme="@style/GarciaCustomTheme">
 
+
         </activity>
+        <activity
+            android:name=".CastilloActivity"
+            android:label="Yodeli Castillo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/CastilloCustomTheme">
+        </activity>
+      
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -149,15 +172,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/TannerCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+        android:parentActivityName=".MainActivity"
+        android:theme="@style/TannerCustomTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+      </activity>
 
         <activity
             android:name=".SchwiethaleActivity"

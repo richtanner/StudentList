@@ -19,7 +19,12 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
-
+    <style name="YanezCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here, with your own colors from colors.xml -->
+        <item name="colorPrimary">@color/customBlue</item>
+        <item name="colorPrimaryDark">@color/customBlueDark</item>
+        <item name="colorAccent">@color/customRed</item>
+    </style>
 
     <style name="BradyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -109,6 +114,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="CastilloCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/listYC</item>
+    </style>
+
     <style name="GarciaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/customOrange</item>
         <item name="colorPrimaryDark">@color/customDarkOrange_AMG</item>
@@ -116,7 +125,7 @@
 
     <style name="WadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/tigerBlue</item>
-        <item name="colorPrimaryDark">@color/lightgrey</item>
+        <item name= "colorPrimaryDark">@color/lightgrey</item>
         <item name="colorAccent">@color/customBlue</item>
     </style>
 
@@ -131,7 +140,6 @@
         <item name="colorPrimary">@color/customBlue</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
-
     </style>
 
 </resources>

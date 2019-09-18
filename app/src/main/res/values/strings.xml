@@ -6,6 +6,10 @@
     <string name="title_Jerry_detail">Jerry The Sleeper</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+
+    <string name="yc_name">Yodeli Castillo</string>
+    <string name="ms_title">Top 10 Favorite Michael Scott Quotes!</string>
+
     <string name="adam_name">Adam Garcia</string>
     <string name="adam_title">Junior CS Major/DET minor</string>
 
