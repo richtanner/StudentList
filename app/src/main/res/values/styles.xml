@@ -114,6 +114,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="CastilloCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/listYC</item>
+    </style>
+
     <style name="GarciaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/customOrange</item>
         <item name="colorPrimaryDark">@color/customDarkOrange</item>
@@ -136,7 +140,6 @@
         <item name="colorPrimary">@color/customBlue</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
-
     </style>
 
 </resources>

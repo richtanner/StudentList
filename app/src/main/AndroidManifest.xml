@@ -156,6 +156,13 @@
 
         </activity>
         <activity
+            android:name=".CastilloActivity"
+            android:label="Yodeli Castillo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/CastilloCustomTheme">
+        </activity>
+      
+        <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
 
@@ -175,18 +182,7 @@
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
-      </activity>  
-
-
-        <activity
-            android:name=".TannerActivity"
-            android:label="@string/title_tanner_detail"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/TannerCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+      </activity>
 
         <activity
             android:name=".SchwiethaleActivity"
