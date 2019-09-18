@@ -120,7 +120,7 @@
 
     <style name="GarciaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/customOrange</item>
-        <item name="colorPrimaryDark">@color/customDarkOrange</item>
+        <item name="colorPrimaryDark">@color/customDarkOrange_AMG</item>
     </style>
 
     <style name="WadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
