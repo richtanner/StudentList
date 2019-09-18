@@ -133,6 +133,13 @@
         </activity>
       
         <activity
+            android:name=".GarciaActivity"
+            android:label="Atom Bomb"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/GarciaCustomTheme">
+
+        </activity>
+        <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
 
@@ -142,14 +149,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
             android:parentActivityName=".MainActivity"
             android:theme="@style/TannerCustomTheme">
             <meta-data
-
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
