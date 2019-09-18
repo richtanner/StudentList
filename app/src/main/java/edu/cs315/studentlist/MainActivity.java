@@ -10,7 +10,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-
+//this a comment
+//another one
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     ListView simpleList;
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
-        simpleList.setOnItemClickListener(this);  // set THIS class as the listener
+        simpleList.setOnItemClickListener(this);  // set THIS class as the listener //its not working
     }
 
     @Override
@@ -125,13 +126,23 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             context.startActivity(intent);
         }
 
+
+        else if (personSelected == "Ruben Yanez") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, Main2Activity.class);
+            context.startActivity(intent);
+        }
+
         /** Adam's code **/
-        if (personSelected == "Adam Garcia") {
+       else if (personSelected == "Adam Garcia") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, GarciaActivity.class);
+            context.startActivity(intent);
+        }
 
 
-        if (personSelected == "Wade Linder") {
+       else if (personSelected == "Wade Linder") {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, WadeActivity.class);
