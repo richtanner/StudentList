@@ -8,7 +8,7 @@
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
     <color name="customDarkOrange_AMG">#DD9611</color>
-    <color name="customOrange">#E0B564</color>
+    <color name="customOrange_AMG">#E0B564</color>
     <color name="customPurple">#805B66</color>
     <color name="customOrange">#c47a12</color>
     <color name="lightgrey">#696969</color>
@@ -35,7 +35,7 @@
     <color name="orangeIsh">#dcb60b</color>
     <color name="darkOrangeIsh">#a88b08</color>
     <color name="deepRed">#bd0d06</color>
-<!--    <color name="customDarkOrange">#c74906</color>-->
+    <color name="customDarkOrange">#c74906</color>
     <color name="lemons_customOrange">#FFA500</color>
     <color name="customOrangeRed">#FF4500</color>
     <color name="zca_dark">#264653</color>
