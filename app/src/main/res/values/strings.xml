@@ -76,4 +76,7 @@
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
     <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
 
+    <string name="mitchell">Mitchell Melrose</string>
+    <string name="bout_me">CS Major, Football Player.\n\nI\'d like to thank StackOverflow for all I\'ve done.</string>
+
 </resources>
