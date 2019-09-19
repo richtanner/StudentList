@@ -204,5 +204,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, MarsdenActivity.class);
             context.startActivity(intent);
         }
+
+        else if (personSelected == "John Marsden") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MelroseActivity.class);
+            context.startActivity(intent);
+        }
     }
 }
