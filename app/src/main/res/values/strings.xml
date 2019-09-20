@@ -2,6 +2,10 @@
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
 
+    <string name="title_anna_detail">Annas Favorite Movies</string>
+    <string name="favorite_movies_of_anna_ter_kuile_a_movie_connoisseur">Favorite Movies of Anna ter Kuile, a movie connoisseur</string>
+    <string name="a_picture_of_scott_pilgrim">a picture of Scott Pilgrim</string>
+    <string name="a_movie_connoisseur">A Movie Connoisseur</string>
 
     <string name="title_Jerry_detail">Jerry The Sleeper</string>
     <string name="rwt_name">Rich Tanner</string>
@@ -13,6 +17,21 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Hello Square World!</string>
+
+    <string name="yc_name">Yodeli Castillo</string>
+    <string name="ms_title">Top 10 Favorite Michael Scott Quotes!</string>
+
+    <string name="adam_name">Adam Garcia</string>
+    <string name="adam_title">Junior CS Major/DET minor</string>
+
+    <!-- wsl new strings -->
+    <string name="title_wade_detail">W. Linder</string>
+    <string name="page_name">Wade Linder</string>
+    <string name="page_title">CS Major</string>
+
+
+    <string name="jds_name">JD Schwiethale</string>
+    <string name="jds_detail">JD Schwiethale</string>
 
     <string name="sxg_name">Sihong Guo</string>
     <string name="sxg_title">Professional Sleeper</string>
@@ -55,7 +74,7 @@
     <string name="zca_title">Computer Science Major</string>
     <string name="zca_subtitle">Business Administration Minor</string>
 
-  <!-- jsr new strings -->
+    <!-- jsr new strings -->
     <string name="visitedtitle">States I\'ve Been To: 27</string>
     <string name="niagara">Niagara Falls, NY</string>
     <string name="ok">Oklahoma</string>
@@ -63,8 +82,12 @@
     <string name="wa">Washington</string>
     <string name="title_jade">J-Swizzle</string>
 
-<!-- pbb new strings -->
+    <!-- pbb new strings -->
     <string name="my_name">Paula Berggren</string>
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
     <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
+
+    <string name="mitchell">Mitchell Melrose</string>
+    <string name="bout_me">CS Major, Football Player.\n\nI\'d like to thank StackOverflow for all I\'ve done.</string>
+
 </resources>

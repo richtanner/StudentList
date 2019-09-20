@@ -19,7 +19,19 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="YanezCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here, with your own colors from colors.xml -->
+        <item name="colorPrimary">@color/customBlue</item>
+        <item name="colorPrimaryDark">@color/customBlueDark</item>
+        <item name="colorAccent">@color/customRed</item>
+    </style>
 
+
+    <style name="AnnaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/atkGreen</item>
+        <item name="colorPrimaryDark">@color/atkOrange</item>
+        <item name="colorAccent">@color/atkYellow</item>
 
     <style name="BradyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -102,6 +114,7 @@
         <item name="colorPrimaryDark">@color/jmmJet</item>
         <item name="colorAccent">@color/jmmIsabelline</item>
         <item name="android:textColor">@color/jmmSmokyBlack</item>
+
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -109,11 +122,39 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="CastilloCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/listYC</item>
+    </style>
+
+    <style name="GarciaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/customOrange</item>
+        <item name="colorPrimaryDark">@color/customDarkOrange_AMG</item>
+    </style>
+
+    <style name="WadeCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/tigerBlue</item>
+        <item name= "colorPrimaryDark">@color/lightgrey</item>
+        <item name="colorAccent">@color/customBlue</item>
+    </style>
+
+    <style name="JDCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/JDBlue</item>
+        <item name="colorPrimaryDark">@color/JDCyan</item>
+        <item name="colorAccent">@color/JDRed</item>
+    </style>
+  
     <style name="LamontCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customBlue</item>
         <item name="colorPrimaryDark">@color/customBlueDark</item>
         <item name="colorAccent">@color/customRed</item>
+    </style>
+
+    <style name= "MitchellCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/MitchellCustom</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/MitchellCustom</item>
     </style>
 
 </resources>
