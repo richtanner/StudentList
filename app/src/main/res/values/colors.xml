@@ -7,6 +7,9 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
+    <color name="atkGreen">#234234</color>
+    <color name="atkOrange">#BD632f</color>
+    <color name="atkYellow">#d8973c</color>
     <color name="customDarkOrange_AMG">#DD9611</color>
     <color name="customOrange_AMG">#E0B564</color>
     <color name="customPurple">#805B66</color>
