@@ -67,7 +67,7 @@
     <string name="zca_title">Computer Science Major</string>
     <string name="zca_subtitle">Business Administration Minor</string>
 
-  <!-- jsr new strings -->
+    <!-- jsr new strings -->
     <string name="visitedtitle">States I\'ve Been To: 27</string>
     <string name="niagara">Niagara Falls, NY</string>
     <string name="ok">Oklahoma</string>
@@ -75,9 +75,12 @@
     <string name="wa">Washington</string>
     <string name="title_jade">J-Swizzle</string>
 
-<!-- pbb new strings -->
+    <!-- pbb new strings -->
     <string name="my_name">Paula Berggren</string>
     <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
     <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
+
+    <string name="mitchell">Mitchell Melrose</string>
+    <string name="bout_me">CS Major, Football Player.\n\nI\'d like to thank StackOverflow for all I\'ve done.</string>
 
 </resources>
