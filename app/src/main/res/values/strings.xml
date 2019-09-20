@@ -2,6 +2,10 @@
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
 
+    <string name="title_anna_detail">Annas Favorite Movies</string>
+    <string name="favorite_movies_of_anna_ter_kuile_a_movie_connoisseur">Favorite Movies of Anna ter Kuile, a movie connoisseur</string>
+    <string name="a_picture_of_scott_pilgrim">a picture of Scott Pilgrim</string>
+    <string name="a_movie_connoisseur">A Movie Connoisseur</string>
 
     <string name="title_Jerry_detail">Jerry The Sleeper</string>
     <string name="rwt_name">Rich Tanner</string>

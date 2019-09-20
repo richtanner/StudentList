@@ -26,6 +26,13 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+
+    <style name="AnnaCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/atkGreen</item>
+        <item name="colorPrimaryDark">@color/atkOrange</item>
+        <item name="colorAccent">@color/atkYellow</item>
+
     <style name="BradyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customGreen</item>
@@ -107,6 +114,7 @@
         <item name="colorPrimaryDark">@color/jmmJet</item>
         <item name="colorAccent">@color/jmmIsabelline</item>
         <item name="android:textColor">@color/jmmSmokyBlack</item>
+
     </style>
 
     <style name="AppTheme.NoActionBar">

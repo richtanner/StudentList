@@ -176,8 +176,20 @@
         </activity>
 
         <activity
+            android:name=".AnnaActivity"
+            android:theme="@style/AnnaCustomTheme"
+            android:label="@string/title_anna_detail"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+        <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
+
         android:parentActivityName=".MainActivity"
         android:theme="@style/TannerCustomTheme">
         <meta-data
