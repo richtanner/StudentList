@@ -125,6 +125,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             context.startActivity(intent);
         }
 
+        else if(personSelected == "Travis Towell"){
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, TowellActivity.class);
+            context.startActivity(intent);
+        }
+
         else if (personSelected == "Anna Ter Kuile") {
             // go to a new activity
             Context context = simpleList.getContext();
@@ -217,7 +223,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, MelroseActivity.class);
             context.startActivity(intent);
         }
-=======
         else if (personSelected == "Yodeli Castillo") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, CastilloActivity.class);

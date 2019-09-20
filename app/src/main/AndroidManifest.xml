@@ -142,6 +142,14 @@
             android:theme="@style/CastilloCustomTheme">
         </activity>
         <activity
+            android:name=".TowellActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
