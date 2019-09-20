@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        simpleList = (ListView) findViewById(R.id.simpleListView);
+        simpleList = (ListView)findViewById(R.id.simpleListView);
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
@@ -83,9 +83,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 8:
                 Toast.makeText(this, personSelected + " Falling Asleep!!!!", Toast.LENGTH_LONG).show();
                 break;
-
+            
             case 10:
-                Toast.makeText(this, personSelected + " A.K.A. JFK", Toast.LENGTH_LONG).show();
+                Toast.makeText(this,personSelected + " A.K.A. JFK", Toast.LENGTH_LONG).show();
                 break;
             case 14:
                 Toast.makeText(this, personSelected + " is super random.", Toast.LENGTH_LONG).show();
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
 
             case 18:
-                Toast.makeText(this, personSelected + " made a list of food.", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected + " made a list of food.", Toast.LENGTH_LONG) .show();
                 break;
 
             case 20:
@@ -117,97 +117,92 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Context context = simpleList.getContext();
             Intent jadeintent = new Intent(context, JadesActivity.class);
             context.startActivity(jadeintent);
-        } else if (personSelected == "Rich Tanner") {
+        }
+        else if (personSelected == "Rich Tanner") {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
         }
-      
-        else if (personSelected == "Yodeli Castillo") {
-            Context context = simpleList.getContext();
-            Intent intent = new Intent(context, CastilloActivity.class);
-            context.startActivity(intent);
-        }
-
-        else if (personSelected == "Ruben Yanez") {
-            // go to a new activity
-            Context context = simpleList.getContext();
-            Intent intent = new Intent(context, Main2Activity.class);
-            context.startActivity(intent);
-        }
-
-        /** Adam's code **/
         else if (personSelected == "Adam Garcia") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, GarciaActivity.class);
+            context.startActivity(intent);
         }
+        else if (personSelected == "Wade Linder") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, WadeActivity.class);
+        }
+        else if (personSelected == "JD Schwiethale") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, SchwiethaleActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Will Gibbs") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, GibbsActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Kelvin Crawford") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, CrawfordActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Felix Mbikogbia") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, FelixActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Josh Kersker") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, KerskerActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Kyle Lemons") {
 
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, KyleActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Zach Albrecht") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AlbrechtActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Paula Berggren") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, BerggrenActivity.class);
 
-            else if (personSelected == "Wade Linder") {
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, WadeActivity.class);
-            } else if (personSelected == "JD Schwiethale") {
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, SchwiethaleActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "Will Gibbs") {
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, GibbsActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "Kelvin Crawford") {
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, CrawfordActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "Felix Mbikogbia") {
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, FelixActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "Josh Kersker") {
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, KerskerActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "Kyle Lemons") {
-
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, KyleActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "Zach Albrecht") {
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, AlbrechtActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "Paula Berggren") {
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, BerggrenActivity.class);
-
-                context.startActivity(intent);
-            } else if (personSelected == "Ben Lamont") {
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, LamontActivity.class);
-                context.startActivity(intent);
-            }
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Ben Lamont") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, LamontActivity.class);
+            context.startActivity(intent);
+        }
 //        else if (personSelected == "Brady Cox") {
 //            // go to a new activity
 //            Context context = simpleList.getContext();
 //            Intent intent = new Intent(context, BradyActivity.class);
 //            context.startActivity(intent);
 //        }
-            else if (personSelected == "Jerry Guo") {
-                // go to a new activity
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, JerryActivity.class);
-                context.startActivity(intent);
-            } else if (personSelected == "John Marsden") {
-                Context context = simpleList.getContext();
-                Intent intent = new Intent(context, MarsdenActivity.class);
-                context.startActivity(intent);
-            }
+        else if (personSelected == "Jerry Guo") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, JerryActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "John Marsden") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MarsdenActivity.class);
+            context.startActivity(intent);
         }
     }
+}

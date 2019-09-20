@@ -17,6 +17,7 @@ public class GarciaActivity extends AppCompatActivity {
             "Kotlin (soon...)",
             "Java (standard)",
             "C++",
+            "C#",
             "Python",
             "JavaScript (some)",
     };
