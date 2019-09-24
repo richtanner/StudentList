@@ -19,6 +19,13 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="WebbCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/customPink</item>
+        <item name="colorPrimaryDark">@color/customtur</item>
+        <item name="colorAccent">@color/customYellow</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
