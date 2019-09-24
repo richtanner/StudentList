@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, WebbActivity.class);
+            context.startActivity(intent);
          }
         else if(personSelected == "Travis Towell"){
             Context context = simpleList.getContext();
