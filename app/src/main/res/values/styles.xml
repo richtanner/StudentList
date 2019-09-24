@@ -33,6 +33,8 @@
         <item name="colorPrimaryDark">@color/atkOrange</item>
         <item name="colorAccent">@color/atkYellow</item>
 
+    </style>
+
     <style name="BradyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customGreen</item>
@@ -78,8 +80,6 @@
         <item name="colorPrimaryDark">@color/customDarkOrange</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
-
-
 
     <style name="KerskerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/orangeIsh</item>

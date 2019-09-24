@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/scottpilgrim" />
+        app:srcCompat="@drawable/splash_image" />
 
     <ListView
         android:id="@+id/annamovie"
