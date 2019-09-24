@@ -11,6 +11,7 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
   
+   <string name="NameCard">Samantha Webb</string>
     <string name="title_activity_towell">TowellActivity</string>
     <!--
     This string is used for square devices and overridden by hello_world in

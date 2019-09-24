@@ -175,12 +175,24 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- <activity android:name=".MainActivity"></activity> -->
+
+        </activity>
         
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
             android:parentActivityName=".MainActivity"
+
+            android:theme="@style/TannerCustomTheme" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        <activity
+            android:name=".WebbActivity"
+            android:label="Sam Webb"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/WebbCustomTheme">
+
             android:theme="@style/TannerCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -213,6 +225,7 @@
             android:label="Mitchell Melrose"
             android:parentActivityName=".MainActivity"
             android:theme="@style/MitchellCustomTheme">
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

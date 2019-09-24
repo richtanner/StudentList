@@ -101,10 +101,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 20:
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
                 break;
+
+            case 23:
+                // by specific index
+                Toast.makeText(this, personSelected + " wrote some steller code!!", Toast.LENGTH_LONG).show();
+                break;
+
             case 6:
                 // by specific index
                 Toast.makeText(this, personSelected + " is cool", Toast.LENGTH_LONG).show();
                 break;
+            
             default:
                 // every case that wasn't specifically called out
                 Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
@@ -124,7 +131,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
         }
-
+         else if (personSelected == "Sam Webb") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, WebbActivity.class);
+         }
         else if(personSelected == "Travis Towell"){
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, TowellActivity.class);

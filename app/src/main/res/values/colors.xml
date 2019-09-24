@@ -7,6 +7,9 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
+    <color name="customPink">#F18D9E</color>
+    <color name="customYellowSam">#E6D72A</color>
+    <color name="customtur">#5BC8AC</color>
     <color name="atkGreen">#234234</color>
     <color name="atkOrange">#BD632f</color>
     <color name="atkYellow">#d8973c</color>
@@ -53,6 +56,7 @@
     <color name="grass">#286B00</color>
     <color name="lime">#A2C523</color>
     <!-- Create your OWN colors for your theme -->
+
 
 
     <color name="listYC">#EC7063</color>
