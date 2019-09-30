@@ -197,7 +197,7 @@
             android:parentActivityName=".MainActivity"
 
 
-            android:theme="@style/TannerCustomTheme" />
+            android:theme="@style/TannerCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
