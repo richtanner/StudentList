@@ -10,6 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".JRC_Activity"
+            android:label="Jerald Campbell"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/JCCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+
+        </activity>
+
         
         <activity
             android:name=".AlbrechtActivity"
@@ -167,6 +179,7 @@
                 android:value=".MainActivity" />
         </activity>
 
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -177,11 +190,13 @@
             </intent-filter>
 
         </activity>
-        
+        <activity android:name=".MainActivity"></activity>
+
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
             android:parentActivityName=".MainActivity"
+
 
             android:theme="@style/TannerCustomTheme" />
             <meta-data
@@ -227,6 +242,7 @@
             android:theme="@style/MitchellCustomTheme">
 
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
