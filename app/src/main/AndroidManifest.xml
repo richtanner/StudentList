@@ -132,9 +132,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
-        <activity android:name=".MainActivity" />
-        
+                
         <activity
             android:name=".MarsdenActivity"
             android:parentActivityName=".MainActivity"
@@ -190,6 +188,7 @@
             </intent-filter>
 
         </activity>
+        
         <activity android:name=".MainActivity"></activity>
 
         <activity
@@ -202,6 +201,8 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+    
         <activity
             android:name=".WebbActivity"
             android:label="Sam Webb"
