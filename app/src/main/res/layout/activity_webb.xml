@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/personalicon" />
+        app:srcCompat="@drawable/splash_image" />
 
     <TextView
         android:id="@+id/textView2"

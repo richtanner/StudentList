@@ -42,7 +42,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/profilepic" />
+        app:srcCompat="@drawable/splash_image" />
 
     <ListView
         android:id="@+id/language_list"
