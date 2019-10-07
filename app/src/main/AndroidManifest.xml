@@ -14,12 +14,19 @@
             android:label="@string/title_gibbs_detail"
             android:parentActivityName=".MainActivity"
             android:theme="@style/GibbsCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
         <activity android:name=".FelixActivity"
             android:parentActivityName=".MainActivity"
             android:label="@string/fab_name"
-            android:theme="@style/FelixCustomTheme"
-            ></activity>
+            android:theme="@style/FelixCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
         <activity
             android:name=".KyleActivity"
@@ -63,11 +70,6 @@
 
 
 
-
-
-        <activity android:name=".MainActivity"></activity>
-
-
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
@@ -87,7 +89,11 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/BradyCustomTheme">
             <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
+        <activity
             android:name=".KerskerActivity"
             android:label="JFK"
             android:parentActivityName=".MainActivity"

@@ -16,7 +16,7 @@
         android:contentDescription="@string/fab_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/felix" />
+        app:srcCompat="@drawable/splash_image" />
 
     <TextView
         android:id="@+id/textView3"

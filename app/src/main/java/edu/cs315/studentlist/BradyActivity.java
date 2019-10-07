@@ -21,7 +21,8 @@ public class BradyActivity extends AppCompatActivity {
             "Knights Quest",
             "VR Project(In Progress)",
             "Endless Runner",
-            "3D Modeling"
+            "3D Modeling",
+            "Test"
     };
 
 
