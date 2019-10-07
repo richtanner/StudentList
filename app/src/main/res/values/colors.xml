@@ -8,6 +8,11 @@
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
 
+
+    <color name="BCCcustomGreen">#24791E</color>
+    <color name="BCCcustomGreenDark">#214A1E</color>
+
+
     <color name="midnightBlue">#001147</color>
     <color name="midnightBlueDark">#00091F</color>
 
@@ -28,13 +33,14 @@
     <color name="JDRed">#ff0000</color>
     <color name="JDCyan">#00ffff</color>
     <color name="MitchellCustom">#aa03f2</color>
-    <color name="customGreen">#24791E</color>
-    <color name="customGreenDark">#214A1E</color>
     <color name="JerryBackground">#176917</color>
     <color name="JerryFont">#000000</color>
     <color name="black">#000000</color>
     <color name="gibbsPurple">#5000AA</color>
+   <!-- <color name="customRed">#a41c43</color> -->
+
     <color name="crawford_customRed">#a41c43</color>
+
     <color name="customYellow">#a49c43</color>
     <color name="KelvinOrange">#a85e13</color>
     <color name="crawford_customOrange">#a85e13</color>
@@ -48,7 +54,11 @@
     <color name="darkOrangeIsh">#a88b08</color>
     <color name="deepRed">#bd0d06</color>
     <color name="customDarkOrange">#c74906</color>
+
+  <!--  <color name="customOrange">#FFA500</color> -->
+
     <color name="lemons_customOrange">#FFA500</color>
+
     <color name="customOrangeRed">#FF4500</color>
     <color name="zca_dark">#264653</color>
     <color name="zca_red">#ed553b</color>

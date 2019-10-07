@@ -18,8 +18,26 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
 
+        <activity android:name=".FelixActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/fab_name"
+            android:theme="@style/FelixCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+      
+      <activity
 
+            android:name=".BradyActivity"
+            android:label="@string/title_brady_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/BradyCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
 
         
@@ -186,6 +204,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"></activity>
+
+
+
+
 
         </activity>
         
@@ -208,7 +233,16 @@
             android:label="Sam Webb"
             android:parentActivityName=".MainActivity"
             android:theme="@style/WebbCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
+        <activity
+            android:name=".KerskerActivity"
+            android:label="JFK"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/KerskerTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

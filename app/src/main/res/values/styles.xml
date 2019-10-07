@@ -44,8 +44,8 @@
 
     <style name="BradyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/customGreen</item>
-        <item name="colorPrimaryDark">@color/customGreenDark</item>
+        <item name="colorPrimary">@color/BCCcustomGreen</item>
+        <item name="colorPrimaryDark">@color/BCCcustomGreenDark</item>
         <item name="colorAccent">@color/customRed</item>
     </style>
 
