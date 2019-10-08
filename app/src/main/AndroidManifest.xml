@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Dice20"></activity>
         <activity
             android:name=".Main2Activity"
             android:label="Ruben Yanez"
@@ -27,16 +28,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
-        android:parentActivityName=".MainActivity"
-        android:theme="@style/TannerCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
-
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TannerCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
     </application>
 
