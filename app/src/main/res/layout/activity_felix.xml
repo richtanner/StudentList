@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TannerActivity">
+    android:theme="@style/FelixCustomTheme"
+    tools:context=".FelixActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -12,10 +13,10 @@
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:contentDescription="@string/rwt_name"
+        android:contentDescription="@string/fab_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/legoprof" />
+        app:srcCompat="@drawable/felix_fab" />
 
     <TextView
         android:id="@+id/textView3"
@@ -24,7 +25,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/rwt_name"
+        android:text="@string/fab_name"
         android:textAlignment="viewStart"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -39,7 +40,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/rwt_title"
+        android:text="@string/fab_title"
         android:textAlignment="viewStart"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ListView
-        android:id="@+id/project_list"
+        android:id="@+id/language_list"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"

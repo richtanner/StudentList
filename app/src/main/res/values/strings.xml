@@ -1,7 +1,96 @@
 <resources>
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
+
+    <string name="title_anna_detail">Annas Favorite Movies</string>
+    <string name="favorite_movies_of_anna_ter_kuile_a_movie_connoisseur">Favorite Movies of Anna ter Kuile, a movie connoisseur</string>
+    <string name="a_picture_of_scott_pilgrim">a picture of Scott Pilgrim</string>
+    <string name="a_movie_connoisseur">A Movie Connoisseur</string>
+
+    <string name="title_Jerry_detail">Jerry The Sleeper</string>
+
     <string name="rwt_name">Rich Tanner</string>
-    <string name="rwt_title">Languages I\'ve Used</string>
+    <string name="rwt_title">Clinical Professor of DET</string>
+  
+   <string name="NameCard">Samantha Webb</string>
+    <string name="title_activity_towell">TowellActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <string name="yc_name">Yodeli Castillo</string>
+    <string name="ms_title">Top 10 Favorite Michael Scott Quotes!</string>
+
+    <string name="adam_name">Adam Garcia</string>
+    <string name="adam_title">Junior CS Major/DET minor</string>
+
+    <!-- wsl new strings -->
+    <string name="title_wade_detail">W. Linder</string>
+    <string name="page_name">Wade Linder</string>
+    <string name="page_title">CS Major</string>
+
+
+    <string name="jds_name">JD Schwiethale</string>
+    <string name="jds_detail">JD Schwiethale</string>
+
+
+    <string name="sxg_name">Sihong Guo</string>
+    <string name="sxg_title">Professional Sleeper</string>
+
+
+    <string name="title_gibbs_detail">American Kirby</string>
+
+    <string name="title_lamont_detail">Just Ben</string>
+    <string name="bal_name">Ben Lamont</string>
+    <string name="bal_title">A person who definitly did not just make a list of lists becasue he was not able decided on one list. Not at all.</string>
+
+    <string name="bcc_title">Senior Student in DET</string>
+    <string name="bcc_name">Brady Cox</string>
+    <string name="title_brady_detail">Brady Cox</string>
+
+    <string name="wtg_name">Will Gibbs</string>
+    <string name="wtg_title">Despite everything, it\'s still me.</string>
+
+    <string name="kcc_name">Kelvin Crawford</string>
+    <string name="title_crawford_detail">Kelvin Crawford</string>
+    <string name="kcc_title">Computer Science Student</string>
+
+    <string name="jmm_name">John Marsden</string>
+    <string name="jmm_email">jmm15f@acu.edu</string>
+    <string name="jmm_fireflamemm_pic_content_description">Picture of John\'s Character Fireflamemm</string>
+
+    <string name="fab_name">Felix Mbikogbia</string>
+    <string name="fab_title">Web Manager, NEXT Lab</string>
+
+    <string name="title_kersker_detail">JFK are my initials</string>
+    <string name="jfk_name">Joshua Kersker</string>
+    <string name="jfk_title">Ministry Major CS/IT Minor</string>
+
+    <string name="kyle_name">Kyle Lemons</string>
+    <string name="title_kyle_detail">Kyle Lemons</string>
+    <string name="title_kyle">Just some plebeian</string>
+
+    <string name="title_albrecht_detail">Zachary Albrecht</string>
+    <string name="zca_name">Zachary Albrecht</string>
+    <string name="zca_title">Computer Science Major</string>
+    <string name="zca_subtitle">Business Administration Minor</string>
+
+    <!-- jsr new strings -->
+    <string name="visitedtitle">States I\'ve Been To: 27</string>
+    <string name="niagara">Niagara Falls, NY</string>
+    <string name="ok">Oklahoma</string>
+    <string name="la">Louisiana</string>
+    <string name="wa">Washington</string>
+    <string name="title_jade">J-Swizzle</string>
+
+    <!-- pbb new strings -->
+    <string name="my_name">Paula Berggren</string>
+    <string name="my_class">I am a 3rd Senior IT Major (RIP)</string>
     <string name="CS315_WARNING">Make your OWN strings, don\'t overwrite someone else\'s</string>
+
+    <string name="mitchell">Mitchell Melrose</string>
+    <string name="bout_me">CS Major, Football Player.\n\nI\'d like to thank StackOverflow for all I\'ve done.</string>
+
 </resources>
