@@ -12,7 +12,7 @@ public class TannerActivity extends AppCompatActivity {
 
     // Array of strings...
     // call YOUR array something that makes sense for YOU
-    String langArray[] = {
+    String[] langArray = {
             "Objective-C",
             "Swift",
             "C#",
@@ -35,7 +35,7 @@ public class TannerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tanner);
 
 
-        languageList = (ListView)findViewById(R.id.project_list);
+        languageList = findViewById(R.id.project_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);
 
         languageList.setAdapter(arrayAdapter);

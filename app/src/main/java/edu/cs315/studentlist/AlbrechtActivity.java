@@ -10,7 +10,7 @@ public class AlbrechtActivity extends AppCompatActivity {
 
     ListView languageList;
 
-    String langArray[] = {
+    String[] langArray = {
             "C++",
             "PHP",
             "HTML",
@@ -28,7 +28,7 @@ public class AlbrechtActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_albrecht);
 
-        languageList = (ListView)findViewById(R.id.language_list);
+        languageList = findViewById(R.id.language_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, langArray);
         languageList.setAdapter(arrayAdapter);
     }

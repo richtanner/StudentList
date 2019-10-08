@@ -11,7 +11,7 @@ public class GarciaActivity extends AppCompatActivity {
     ListView languageList;
 
     // Array of strings...
-    String langArray[] = {
+    String[] langArray = {
             "Swift",
             "Java (Android)",
             "Kotlin (soon...)",
@@ -27,7 +27,7 @@ public class GarciaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_garcia);
 
-        languageList = (ListView)findViewById(R.id.language_list);
+        languageList = findViewById(R.id.language_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, langArray);
         languageList.setAdapter(arrayAdapter);
     }

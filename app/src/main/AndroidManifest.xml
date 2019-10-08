@@ -72,16 +72,6 @@
         </activity>
 
         <activity
-            android:name=".FelixActivity"
-            android:label="@string/fab_name"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/FelixCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-        <activity
             android:name=".GibbsActivity"
             android:label="@string/title_gibbs_detail"
             android:parentActivityName=".MainActivity"
@@ -232,16 +222,6 @@
             android:label="Sam Webb"
             android:parentActivityName=".MainActivity"
             android:theme="@style/WebbCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-        <activity
-            android:name=".KerskerActivity"
-            android:label="JFK"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/KerskerTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
