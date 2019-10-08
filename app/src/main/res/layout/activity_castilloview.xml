@@ -7,12 +7,13 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="match_parent"
         android:layout_weight="0"
-        android:fontFamily="monospace"
+        android:fontFamily="sans-serif-medium"
         android:padding="5dp"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#1D6323"
-        android:textSize="30sp" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:visibility="visible" />
 </LinearLayout>
