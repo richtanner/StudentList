@@ -10,7 +10,7 @@ public class CastilloActivity extends AppCompatActivity {
 
     ListView quoteList;
 
-    String msArray[] = {
+    String[] msArray = {
             "No, I'm not going to tell them about the downsizing. " +
                     "If a patient has cancer, you don't tell them. - Season 1: Pilot",
             "It's simply beyond words. It's incalculable. - Season 1: Pilot",
@@ -26,14 +26,14 @@ public class CastilloActivity extends AppCompatActivity {
                     "It was love at first see with my ears. - Season 4: Goodbye, Toby(1)",
             "Sometimes I'll start a sentence and I don't even know where it's going. " +
                     "I just hope i find it along the way. - Season 5: The Duel"
-};
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_castillo);
 
-        quoteList = (ListView)findViewById(R.id.quote_list);
+        quoteList = findViewById(R.id.quote_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_castilloview, R.id.textView, msArray);
         quoteList.setAdapter(arrayAdapter);
     }

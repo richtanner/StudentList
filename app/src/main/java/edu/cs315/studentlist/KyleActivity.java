@@ -11,7 +11,7 @@ public class KyleActivity extends AppCompatActivity {
     ListView kylesList;
 
     // Array of strings...
-    String langArray[] = {
+    String[] langArray = {
             "Astros",
             "A's",
             "Angels",
@@ -33,7 +33,7 @@ public class KyleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kyle);
 
-        kylesList = (ListView)findViewById(R.id.language_list);
+        kylesList = findViewById(R.id.language_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, langArray);
         kylesList.setAdapter(arrayAdapter);
     }

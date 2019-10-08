@@ -11,7 +11,7 @@ public class GibbsActivity extends AppCompatActivity {
     ListView gameList;
 
     // Array of strings...
-    String gameArray[] = {
+    String[] gameArray = {
             "Fallout: New Vegas",
             "Demon\'s Souls",
             "Terraria",
@@ -24,7 +24,7 @@ public class GibbsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gibbs);
 
-        gameList = (ListView)findViewById(R.id.game_list);
+        gameList = findViewById(R.id.game_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, gameArray);
         gameList.setAdapter(arrayAdapter);
     }

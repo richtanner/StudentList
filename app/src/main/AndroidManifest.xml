@@ -28,7 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-      
+
       <activity
 
             android:name=".BradyActivity"
@@ -40,7 +40,7 @@
                 android:value=".MainActivity" />
         </activity>
 
-        
+
         <activity
             android:name=".AlbrechtActivity"
             android:label="@string/title_albrecht_detail"
@@ -50,7 +50,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".BerggrenActivity"
             android:label="@string/my_name"
@@ -60,7 +60,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".CrawfordActivity"
             android:label="Kelvin Crawford"
@@ -70,17 +70,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
-        <activity
-            android:name=".FelixActivity"
-            android:label="@string/fab_name"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/FelixCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        
+
         <activity
             android:name=".GibbsActivity"
             android:label="@string/title_gibbs_detail"
@@ -90,7 +80,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".JadesActivity"
             android:label="@string/title_jade"
@@ -100,7 +90,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".JerryActivity"
             android:label="@string/title_Jerry_detail"
@@ -110,7 +100,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".KerskerActivity"
             android:label="JFK"
@@ -120,7 +110,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".WadeActivity"
             android:label="@string/title_wade_detail"
@@ -130,7 +120,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".KyleActivity"
             android:label="@string/title_kyle_detail"
@@ -140,7 +130,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".LamontActivity"
             android:label="@string/title_lamont_detail"
@@ -150,7 +140,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-                
+
         <activity
             android:name=".MarsdenActivity"
             android:parentActivityName=".MainActivity"
@@ -159,7 +149,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
+        <activity android:name=".Dice20"></activity>
         <activity
             android:name=".Main2Activity"
             android:label="Ruben Yanez"
@@ -169,7 +160,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".GarciaActivity"
             android:label="Atom Bomb"
@@ -179,14 +170,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".CastilloActivity"
             android:label="Yodeli Castillo"
             android:parentActivityName=".MainActivity"
             android:theme="@style/CastilloCustomTheme">
         </activity>
-        
+
         <activity
             android:name=".TowellActivity"
             android:parentActivityName=".MainActivity">
@@ -206,19 +197,17 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"></activity>
 
-
-
-
-
-        </activity>
-        
         <activity android:name=".MainActivity"></activity>
 
         <activity
             android:name=".TannerActivity"
             android:label="@string/title_tanner_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TannerCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
             android:parentActivityName=".MainActivity"
 
 
@@ -227,22 +216,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-    
+
         <activity
             android:name=".WebbActivity"
             android:label="Sam Webb"
             android:parentActivityName=".MainActivity"
             android:theme="@style/WebbCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-        <activity
-            android:name=".KerskerActivity"
-            android:label="JFK"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/KerskerTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -258,7 +237,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".SchwiethaleActivity"
             android:label="@string/jds_detail"
@@ -268,7 +247,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".MelroseActivity"
             android:label="Mitchell Melrose"
@@ -280,7 +259,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
     </application>
 
 </manifest>

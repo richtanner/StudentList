@@ -13,7 +13,7 @@ public class TowellActivity extends AppCompatActivity {
 
     ListView CountryListView;
 
-    String countryArray[] = {
+    String[] countryArray = {
             "Mexico",
             "Canada",
             "Honduras",
@@ -36,7 +36,7 @@ public class TowellActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_towell);
 
-        CountryListView = (ListView) findViewById(R.id.country_list);
+        CountryListView = findViewById(R.id.country_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.activity_listview, R.id.textView, countryArray);
         CountryListView.setAdapter(arrayAdapter);
 

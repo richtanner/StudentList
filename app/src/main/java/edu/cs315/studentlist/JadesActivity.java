@@ -11,7 +11,7 @@ public class JadesActivity extends AppCompatActivity {
     ListView jadesList;
 
     // Array of strings...
-    String jadeArray[] = {
+    String[] jadeArray = {
             "Alabama",
             "Arizona",
             "Arkansas",
@@ -46,7 +46,7 @@ public class JadesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jades);
 
-        jadesList = (ListView)findViewById(R.id.jade_list);
+        jadesList = findViewById(R.id.jade_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, jadeArray);
         jadesList.setAdapter(arrayAdapter);
     }

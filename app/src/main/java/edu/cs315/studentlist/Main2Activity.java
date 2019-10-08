@@ -12,8 +12,7 @@ public class Main2Activity extends AppCompatActivity {
     //push two
     // Array of strings...
     // call YOUR array something that makes sense for YOU
-    String Teamsarray[] = {
-
+    String[] Teamsarray = {
 
 
             "Optic",
@@ -33,7 +32,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        RubensList = (ListView)findViewById(R.id.Rubens_list);
+        RubensList = findViewById(R.id.Rubens_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, Teamsarray);
         RubensList.setAdapter(arrayAdapter);
     }

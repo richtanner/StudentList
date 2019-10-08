@@ -34,7 +34,7 @@ public class MarsdenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_marsden);
 
-        jmmLangListView = (ListView) findViewById(R.id.jmmLangList);
+        jmmLangListView = findViewById(R.id.jmmLangList);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.activity_styleless_listviewitem, R.id.textView, langArray);
         jmmLangListView.setAdapter(arrayAdapter);
     }
