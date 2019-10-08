@@ -11,6 +11,10 @@
 
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+
+    <string name="skh_name">SK Hall</string>
+    <string name="skh_title">Professional Disney Addict</string>
+    <string name="list_title">and a list of her must visits</string>
   
    <string name="NameCard">Samantha Webb</string>
     <string name="title_activity_towell">TowellActivity</string>
@@ -92,5 +96,4 @@
 
     <string name="mitchell">Mitchell Melrose</string>
     <string name="bout_me">CS Major, Football Player.\n\nI\'d like to thank StackOverflow for all I\'ve done.</string>
-
 </resources>

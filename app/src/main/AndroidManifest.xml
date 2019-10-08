@@ -20,6 +20,7 @@
                 android:value=".MainActivity" />
         </activity>
 
+
         <activity android:name=".FelixActivity"
             android:parentActivityName=".MainActivity"
             android:label="@string/fab_name"
@@ -150,7 +151,6 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity android:name=".Dice20"></activity>
         <activity
             android:name=".Main2Activity"
             android:label="Ruben Yanez"
@@ -208,9 +208,12 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".skhActivity"
+            android:label="@string/skh_name"
             android:parentActivityName=".MainActivity"
-
-
             android:theme="@style/TannerCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -259,6 +262,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

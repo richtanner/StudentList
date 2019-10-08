@@ -8,6 +8,10 @@
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
 
+    <color name="skh_splashColor">#3F3F3F</color>
+    <color name="skh_colorPrimary">#008577</color>
+    <color name="skh_colorPrimaryDark">#00574B</color>
+    <color name="skh_colorAccent">#D81B60</color>
 
     <color name="BCCcustomGreen">#24791E</color>
     <color name="BCCcustomGreenDark">#214A1E</color>

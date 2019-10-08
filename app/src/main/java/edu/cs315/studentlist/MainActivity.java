@@ -170,7 +170,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, JerryActivity.class);
             context.startActivity(intent);
         }
-        // Sarah Kathryn Hall
         else if (personSelected == "Josh Kersker") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, KerskerActivity.class);
@@ -216,9 +215,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, SchwiethaleActivity.class);
             context.startActivity(intent);
         }
-        // Anand Shah
         else if (personSelected == "Rich Tanner") {
-            // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, TannerActivity.class);
             context.startActivity(intent);
@@ -241,6 +238,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         else if (personSelected == "Ruben Yanez") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, Main2Activity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Sarah Kathryn Hall") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, skhActivity.class);
             context.startActivity(intent);
         }
     }
