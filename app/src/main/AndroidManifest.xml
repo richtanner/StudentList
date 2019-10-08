@@ -18,19 +18,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".TannerActivity"
-            android:theme="@style/TannerCustomTheme"
             android:label="@string/title_tanner_detail"
-            android:parentActivityName=".MainActivity">
-
-        <meta-data
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TannerCustomTheme">
+            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity
+            android:name=".skhActivity"
+            android:label="@string/skh_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TannerCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

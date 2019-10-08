@@ -3,4 +3,8 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+
+    <string name="skh_name">SK Hall</string>
+    <string name="skh_title">Professional Disney Addict</string>
+    <string name="list_title">and a list of her must visits</string>
 </resources>
