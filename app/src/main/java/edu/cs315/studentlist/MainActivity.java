@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
     // Array of strings...
-    String peopleList[] = {
+    String[] peopleList = {
             "Zach Albrecht",
             "Paula Berggren",
             "JC Campbell",
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        simpleList = (ListView)findViewById(R.id.simpleListView);
+        simpleList = findViewById(R.id.simpleListView);
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
@@ -143,10 +143,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, BradyActivity.class);
             context.startActivity(intent);
-        }
+       }
         else if (personSelected == "Kelvin Crawford") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, CrawfordActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Felix Mbikogbia") {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context,FelixActivity.class);
             context.startActivity(intent);
         }
         else if (personSelected == "Adam Garcia") {

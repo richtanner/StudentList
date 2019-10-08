@@ -22,7 +22,7 @@ public class MelroseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_melrose);
 
-        wmmListView = (ListView) findViewById(R.id.wmmList);
+        wmmListView = findViewById(R.id.wmmList);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.activity_styleless_listviewitem, R.id.textView, langArray);
         wmmListView.setAdapter(arrayAdapter);
     }

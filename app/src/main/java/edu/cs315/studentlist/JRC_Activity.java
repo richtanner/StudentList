@@ -16,7 +16,7 @@ public class JRC_Activity extends AppCompatActivity {
     ListView simpleList;
 
     // Array of strings...
-    String stateList[] = {
+    String[] stateList = {
             "New Mexico",
             "Texas",
             "Arizona",
@@ -32,7 +32,7 @@ public class JRC_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jrc_);
 
-        simpleList = (ListView)findViewById(R.id.JC_List);
+        simpleList = findViewById(R.id.JC_List);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, stateList);
         simpleList.setAdapter(arrayAdapter);
     }

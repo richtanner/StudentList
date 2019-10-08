@@ -11,7 +11,7 @@ public class SchwiethaleActivity extends AppCompatActivity {
     ListView myList;
 
 
-    String myArray[] = {
+    String[] myArray = {
 
             "ice cream",
             "steak",
@@ -28,7 +28,7 @@ public class SchwiethaleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_schwiethale);
 
 
-        myList = (ListView)findViewById(R.id.my_list);
+        myList = findViewById(R.id.my_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, myArray);
         myList.setAdapter(arrayAdapter);
 

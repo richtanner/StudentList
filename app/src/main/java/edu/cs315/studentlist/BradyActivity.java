@@ -12,7 +12,7 @@ public class BradyActivity extends AppCompatActivity {
     ListView gameList;
 
     // Array of strings...
-    String gameArray[] = {
+    String[] gameArray = {
             "Chess",
             "Text Adventure",
             "Zombie Squirrel",
@@ -31,7 +31,7 @@ public class BradyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brady);
 
-        gameList = (ListView)findViewById(R.id.project_list);
+        gameList = findViewById(R.id.project_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, gameArray);
         gameList.setAdapter(arrayAdapter);
     }

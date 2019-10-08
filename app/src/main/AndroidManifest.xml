@@ -19,7 +19,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-      
+
+
+        <activity android:name=".FelixActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/fab_name"
+            android:theme="@style/FelixCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
       <activity
 
             android:name=".BradyActivity"
@@ -57,16 +67,6 @@
             android:label="Kelvin Crawford"
             android:parentActivityName=".MainActivity"
             android:theme="@style/CrawfordCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-        <activity
-            android:name=".FelixActivity"
-            android:label="@string/fab_name"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/FelixCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -196,6 +196,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
 
         <activity android:name=".MainActivity"></activity>
 

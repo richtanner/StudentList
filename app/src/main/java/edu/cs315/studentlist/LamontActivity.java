@@ -11,7 +11,7 @@ public class LamontActivity extends AppCompatActivity {
     ListView stuffList;
 
     // Array of strings...
-    String stuffArray[] = {
+    String[] stuffArray = {
             "Favorite Movies",
             "Favorite Games",
             "Programming Languages",
@@ -33,7 +33,7 @@ public class LamontActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lamont);
 
-        stuffList = (ListView)findViewById(R.id.language_list);
+        stuffList = findViewById(R.id.language_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, stuffArray);
         stuffList.setAdapter(arrayAdapter);
     }
