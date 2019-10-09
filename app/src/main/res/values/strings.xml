@@ -1,4 +1,11 @@
 <resources>
+
+    <!--Anand Shah's Strings begin-->
+    <string name="anand_page_title">About Anand</string>
+    <string name="anand_name">Anand Shah</string>
+    <string name="anand_title">Mobile App Dev Student</string>
+    <!--end-->
+
     <string name="app_name">CS315 Student List</string>
     <string name="title_tanner_detail">Prof Tanner</string>
 
@@ -15,8 +22,8 @@
     <string name="skh_name">SK Hall</string>
     <string name="skh_title">Professional Disney Addict</string>
     <string name="list_title">and a list of her must visits</string>
-  
-   <string name="NameCard">Samantha Webb</string>
+
+    <string name="NameCard">Samantha Webb</string>
     <string name="title_activity_towell">TowellActivity</string>
     <!--
     This string is used for square devices and overridden by hello_world in

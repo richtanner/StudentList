@@ -102,7 +102,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 18:
                 Toast.makeText(this, personSelected + " made a list of food.", Toast.LENGTH_LONG) .show();
                 break;
-
+            case 19:
+                Toast.makeText(this, "Hi! Welcome to " + personSelected + "'s page.", Toast.LENGTH_LONG) .show();
+                break;
             case 20:
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
                 break;
@@ -243,6 +245,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         else if (personSelected == "Sarah Kathryn Hall") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, skhActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected == "Anand Shah") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AnandActivity.class);
             context.startActivity(intent);
         }
     }
