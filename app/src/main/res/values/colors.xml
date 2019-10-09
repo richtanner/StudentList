@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Anand's Colors for theme begin -->
+    <color name="AnandColorPrimary">#f74752</color>
+    <color name="AnandColorPrimaryDark">#b82c37</color>
+    <color name="AnandColorAccent">#db4648</color>
+    <!-- end -->
+
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#070707</color>
     <color name="colorAccent">#D81B60</color>
@@ -79,4 +86,5 @@
 
 
     <color name="listYC">#EC7063</color>
+
 </resources>
